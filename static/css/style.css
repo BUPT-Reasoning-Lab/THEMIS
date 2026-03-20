@@ -2,7 +2,7 @@
 
 .hero-header {
   /* 渐变色：粉-紫-蓝 */
-  background: linear-gradient(135deg, #fab6c7 0%, #c2affb 50%, #a4bafa 100%);
+  background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
   padding: 6rem 2rem; /* 增加上下内边距，减少压抑感 */
   color: #ffffff;
   min-height: 650px; /* 增加最小高度 */

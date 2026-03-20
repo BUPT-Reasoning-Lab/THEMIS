@@ -15,33 +15,59 @@
   max-width: 1150px !important; 
 }
 
-/* 标题改为黑色 */
+/* static/css/style.css */
+
+/* 1. 标题保持纯黑 */
 .project-name {
   font-family: 'Google Sans', sans-serif;
-  font-size: 5.5rem; /* 稍微加大 */
+  font-size: 5.5rem;
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 1.5rem;
-  color: #000000; /* 标题改为黑色 */
+  color: #000000 !important;
 }
 
+/* 2. 副标题改为灰色 #a4a4a4 */
 .project-subtitle {
   font-family: 'Google Sans', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 3rem;
-  color: #ffffff;
+  color: #a4a4a4 !important; /* 更新颜色 */
 }
 
+/* 3. 作者列表改为灰色 #a4a4a4 */
 .author-info {
   font-size: 1.1rem;
   margin-bottom: 3rem;
-  line-height: 1.6;
+  line-height: 1.8;
+  color: #a4a4a4 !important; /* 更新颜色 */
 }
 
-.author-info strong { color: #ffffff; }
+.author-info strong { 
+  color: #a4a4a4 !important; /* "Authors:" 标签也保持一致 */
+}
 
+.author-block {
+  display: inline-block;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+/* 4. Affiliations & Note 统一色调 */
+.affiliations {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-style: italic;
+  color: #a4a4a4;
+}
+
+.note {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
 /* 胶囊按钮 */
 .buttons-container {
   display: flex;

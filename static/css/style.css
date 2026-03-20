@@ -9,7 +9,7 @@ body {
   position: relative;
   background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
   padding: 8rem 2rem; /* 增加上下高度，让内容在垂直方向更舒展 */
-  min-height: 750px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -105,7 +105,7 @@ body {
   /* LOKI 风格：左侧区域 (根据需要微调 left 和 size) */
   left: 5%;           /* 设定具体的左侧偏移量，拉开空间 */
   width: 45%;         /* 设定具体的宽度，使其在 column 中显得很大 */
-  max-width: 1500px;   /* 设定最大尺寸，防止过大 */
+  max-width: 500px;   /* 设定最大尺寸，防止过大 */
   
   /* 基础 Logo 样式保持 */
   height: auto;

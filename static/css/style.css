@@ -6,6 +6,7 @@ body {
 }
 
 .hero-header {
+  position: relative;
   background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
   padding: 8rem 2rem; /* 增加上下高度，让内容在垂直方向更舒展 */
   min-height: 750px;
@@ -94,20 +95,23 @@ body {
 }
 
 /* 5. Logo 布局分散控制 */
-.logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 2rem; /* 增加图文之间的横向间距 */
-}
-
-.project-logo {
-  width: 100%;
-  max-width: 420px; /* 适当放大 Logo */
+.project-logo-new {
+  position: absolute; /* 绝对定位，脱离标准文档流 */
+  
+  /* 精确匹配你指定的红色圆圈区域： */
+  top: 50%;           /* 垂直居中 */
+  transform: translateY(-50%); /* 配合 top:50% 实现完美垂直居中 */
+  
+  /* LOKI 风格：左侧区域 (根据需要微调 left 和 size) */
+  left: 5%;           /* 设定具体的左侧偏移量，拉开空间 */
+  width: 45%;         /* 设定具体的宽度，使其在 column 中显得很大 */
+  max-width: 500px;   /* 设定最大尺寸，防止过大 */
+  
+  /* 基础 Logo 样式保持 */
   height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-  border: 10px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  
+  /* 确保 Logo 不会遮挡文字链接，允许点击 (可选，通常不加) */
+  pointer-events: none; 
 }

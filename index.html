@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>THEMIS Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THEMIS: Evaluating Multimodal Large Language Models for Scientific Paper Fraud Forensics</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <style>
+    body { font-family: 'Noto Sans', sans-serif; }
+    .publication-title { font-family: 'Google Sans', sans-serif; font-weight: 700; color: #363636; }
+    .publication-authors a { color: #4a4a4a; border-bottom: 1px dotted #4a4a4a; }
+    .publication-authors a:hover { color: #008AD7; }
+    .author-block { display: inline-block; margin-right: 10px; }
+    .hero-body { padding: 3rem 1.5rem; }
+    .section { padding: 2rem 1.5rem; }
+    .abstract-content { text-align: justify; text-justify: inter-word; }
+    .method-img { width: 100%; max-width: 900px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+    .bibtex-box { background-color: #f5f5f5; padding: 1.5rem; border-radius: 6px; overflow-x: auto; }
+  </style>
 </head>
 <body>
-    <h1>Welcome to THEMIS Project</h1>
-    <p>Coming soon...</p>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            THEMIS: Evaluating Multimodal Large Language Models for Scientific Paper Fraud Forensics
+          </h1>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#">Bo Zhang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Co-authors</a><sup>1,2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Beijing University of Posts and Telecommunications,</span>
+            <span class="author-block"><sup>2</sup>Reasoning Lab</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://github.com/BUPT-Reasoning-Lab/THEMIS" class="button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#" class="button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content abstract-content">
+          Recent advancements in generative AI have introduced significant challenges to academic integrity, particularly through the creation of sophisticated forged scientific images and texts. 
+          In this paper, we present <strong>THEMIS</strong>, a comprehensive benchmark designed to evaluate the forensic capabilities of Multimodal Large Language Models (MLLMs) in detecting scientific paper fraud. 
+          Our benchmark covers various dimensions of manipulation...
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">The THEMIS Framework</h2>
+        <div class="has-text-centered">
+          <img src="./static/images/framework.png" class="method-img" alt="THEMIS Methodology Overview">
+        </div>
+        <div class="content has-text-justified mt-4">
+          <p>
+            The THEMIS framework evaluates models across three key dimensions: (1) <strong>Detection</strong> of manipulated regions in scientific figures, (2) <strong>Reasoning</strong> about the logical consistency between text and experimental data, and (3) <strong>Attribution</strong> of generative sources.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <div class="bibtex-box">
+      <pre><code>@article{zhang2026themis,
+  title={THEMIS: Evaluating Multimodal Large Language Models for Scientific Paper Fraud Forensics},
+  author={Zhang, Bo and others},
+  journal={arXiv preprint},
+  year={2026}
+}</code></pre>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>This website is constructed using the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> template.</p>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

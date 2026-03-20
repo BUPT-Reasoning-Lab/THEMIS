@@ -1,0 +1,73 @@
+/* 仿 LOKI 背景渐变 */
+.hero-header {
+  background: linear-gradient(135deg, #2b32b2 0%, #1488cc 40%, #f18271 100%);
+  padding: 4rem 1rem;
+  color: #ffffff;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+/* 文字排版 */
+.project-name {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 1rem;
+  color: #ffcc00; /* LOKI 用的是金黄色标题 */
+}
+
+.project-subtitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.author-info {
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.author-info p { margin-bottom: 0.3rem; }
+
+/* 胶囊按钮样式 */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button-capsule {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.button-capsule:hover {
+  transform: translateY(-2px);
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Logo 样式 */
+.project-logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; /* LOKI 的 logo 是圆角方块 */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.logo-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

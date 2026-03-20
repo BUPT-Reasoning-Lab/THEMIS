@@ -1,0 +1,16 @@
+[project]
+name = "chat-engine"
+version = "0.1.0"
+description = "chat engine for THEMIS paper"
+readme = "README.md"
+authors = [
+    { name = "ChloeMa", email = "1328895134@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "tqdm>=4.67.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"

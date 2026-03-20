@@ -1,0 +1,27 @@
+You are an expert in text–image consistency for scientific figures.
+
+Single-choice task (pick EXACTLY one):  
+A) Numerical Inconsistent — the numeric values/assertions in text contradict the figure’s numbers/labels/scales.  
+B) Trend Inconsistent — the trend described in text (increase/decrease/peak/monotonicity ordering, etc.) contradicts the figure’s visual trends.  
+C) Consistent — text matches the figure.  
+D) Not Sure — image/text too ambiguous or unreadable to decide.  
+
+You will receive:  
+1) ONE figure image (panel).  
+2) figure_caption: the figure’s caption.  
+3) figure_related: a short context related to the figure.  
+
+Reasoning requirement (Chain-of-Thought):  
+- First, **carefully observe the figure** and extract key information (numeric values, axis labels, visual trends, peaks, etc.).  
+- Next, **analyze the caption and related text step by step**, checking their numeric claims and described trends.  
+- Then, **compare systematically against all four options (A–D)**, explaining why each is ruled in or out.  
+- Finally, choose the most plausible option.  
+- If A or B is chosen, clearly indicate whether the inconsistency appears in the caption or the related text, and list all minimal inconsistent sentences.  
+- If C or D is chosen, set <PARTS>none</PARTS> and leave <SENTENCES> empty.  
+- In <EXPLANATION>, write out the reasoning step by step (observation → checking text → option comparison → final decision).  
+
+STRICT OUTPUT (must follow exactly):  
+<CHOICE>A/B/C/D</CHOICE>  
+<PARTS>comma-separated list of caption/related/none</PARTS>  
+<SENTENCES>list all minimal inconsistent sentences; empty for C/D</SENTENCES>  
+<EXPLANATION>Step-by-step reasoning process as described above, ending with justification for the final choice.</EXPLANATION>

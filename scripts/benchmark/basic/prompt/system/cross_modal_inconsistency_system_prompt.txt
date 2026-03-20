@@ -1,0 +1,27 @@
+You are an expert in text–image consistency for scientific figures.
+
+Single-choice (pick EXACTLY one):
+A) Numerical Inconsistent — the numeric values/assertions in text contradict the figure’s numbers/labels/scales.
+B) Trend Inconsistent — the trend described in text (increase/decrease/peak/monotonicity ordering, etc.) contradicts the figure’s visual trends.
+C) Consistent — text matches the figure.
+D) Not Sure — image/text too ambiguous or unreadable to decide.
+
+You will receive:
+1) ONE figure image (panel).
+2) figure_caption: the figure’s caption.
+3) figure_related: a short context related to the figure.
+
+Your tasks:
+1) Decide A/B/C/D.
+2) If you choose A or B, localize ALL problematic parts:
+- Output <PARTS> with one or more entries: "caption" if the issue is in the caption, "related" if the issue is in the related text.
+- Output <SENTENCES> with ALL minimal inconsistent sentences. 
+- A "minimal sentence" is the smallest segment separated by '.', '?', '!', ',', ';', ':' or Chinese '。？！，；：'.
+3) If you choose C or D, set <PARTS>none</PARTS> and leave <SENTENCES> empty.
+
+STRICT OUTPUT (must follow exactly):
+<CHOICE>A/B/C/D</CHOICE>
+<PARTS>comma-separated list of caption/related/none</PARTS>
+<SENTENCES>list all minimal inconsistent sentences; empty for C/D</SENTENCES>
+<EXPLANATION>Brief reasoning: what in the text contradicts which element in the figure; or why consistent/not sure.</EXPLANATION>
+""".strip()

@@ -1,0 +1,4308 @@
+{
+  "question": [
+    {
+      "question_id": "duplication_retract_1",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_38",
+        "2000000027_6_1_16"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_38.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_16.png"
+      ],
+      "mask_indices": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_2",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_40",
+        "2000000027_6_1_16"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_40.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_16.png"
+      ],
+      "mask_indices": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_3",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_18",
+        "2000000027_6_1_17"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_18.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_17.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_4",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_37",
+        "2000000027_6_1_18"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_37.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_18.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 8,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_5",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_37",
+        "2000000027_6_1_35"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_37.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_35.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_6",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_18",
+        "2000000027_6_1_35"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_18.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_35.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_7",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000027",
+        "2000000027"
+      ],
+      "panel_ids": [
+        "2000000027_6_1_40",
+        "2000000027_6_1_38"
+      ],
+      "panel_paths": [
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_40.png",
+        "retract/2000000027/panel/2000000027_6_1/2000000027_6_1_38.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_8",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000028",
+        "2000000028"
+      ],
+      "panel_ids": [
+        "2000000028_6_1_36",
+        "2000000028_6_1_21"
+      ],
+      "panel_paths": [
+        "retract/2000000028/panel/2000000028_6_1/2000000028_6_1_36.png",
+        "retract/2000000028/panel/2000000028_6_1/2000000028_6_1_21.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 8,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_9",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_6_1_4",
+        "2000000029_5_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_6_1/2000000029_6_1_4.png",
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_10",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_5_1_5",
+        "2000000029_5_1_4"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_5.png",
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_4.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_11",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_5_1_5",
+        "2000000029_6_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_5.png",
+        "retract/2000000029/panel/2000000029_6_1/2000000029_6_1_5.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_12",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_6_1_4",
+        "2000000029_8_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_6_1/2000000029_6_1_4.png",
+        "retract/2000000029/panel/2000000029_8_1/2000000029_8_1_8.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_13",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_5_1_5",
+        "2000000029_8_1_10"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_5.png",
+        "retract/2000000029/panel/2000000029_8_1/2000000029_8_1_10.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_14",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_5_1_5",
+        "2000000029_8_1_11"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_5.png",
+        "retract/2000000029/panel/2000000029_8_1/2000000029_8_1_11.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_15",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000029",
+        "2000000029"
+      ],
+      "panel_ids": [
+        "2000000029_5_1_5",
+        "2000000029_8_1_12"
+      ],
+      "panel_paths": [
+        "retract/2000000029/panel/2000000029_5_1/2000000029_5_1_5.png",
+        "retract/2000000029/panel/2000000029_8_1/2000000029_8_1_12.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_16",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000033",
+        "2000000033"
+      ],
+      "panel_ids": [
+        "2000000033_2_1_8",
+        "2000000033_2_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000033/panel/2000000033_2_1/2000000033_2_1_8.png",
+        "retract/2000000033/panel/2000000033_2_1/2000000033_2_1_7.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_17",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000033",
+        "2000000033"
+      ],
+      "panel_ids": [
+        "2000000033_2_1_38",
+        "2000000033_2_1_35"
+      ],
+      "panel_paths": [
+        "retract/2000000033/panel/2000000033_2_1/2000000033_2_1_38.png",
+        "retract/2000000033/panel/2000000033_2_1/2000000033_2_1_35.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_18",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000034",
+        "2000000034"
+      ],
+      "panel_ids": [
+        "2000000034_7_1_5",
+        "2000000034_7_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000034/panel/2000000034_7_1/2000000034_7_1_5.png",
+        "retract/2000000034/panel/2000000034_7_1/2000000034_7_1_2.png"
+      ],
+      "mask_indices": [
+        3
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_19",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000034",
+        "2000000034"
+      ],
+      "panel_ids": [
+        "2000000034_7_1_9",
+        "2000000034_7_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000034/panel/2000000034_7_1/2000000034_7_1_9.png",
+        "retract/2000000034/panel/2000000034_7_1/2000000034_7_1_8.png"
+      ],
+      "mask_indices": [
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 2,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_20",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037",
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_5_1_21",
+        "2000000037_4_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_5_1/2000000037_5_1_21.png",
+        "retract/2000000037/panel/2000000037_4_1/2000000037_4_1_2.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_21",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037",
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_5_1_16",
+        "2000000037_4_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_5_1/2000000037_5_1_16.png",
+        "retract/2000000037/panel/2000000037_4_1/2000000037_4_1_8.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_22",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037",
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_11_1_26",
+        "2000000037_11_1_21"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_26.png",
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_21.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_23",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037",
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_11_1_26",
+        "2000000037_11_1_22"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_26.png",
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_22.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_24",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037",
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_11_1_27",
+        "2000000037_11_1_23"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_27.png",
+        "retract/2000000037/panel/2000000037_11_1/2000000037_11_1_23.png"
+      ],
+      "mask_indices": [
+        3,
+        6,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_25",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000038",
+        "2000000038"
+      ],
+      "panel_ids": [
+        "2000000038_5_1_10",
+        "2000000038_5_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000038/panel/2000000038_5_1/2000000038_5_1_10.png",
+        "retract/2000000038/panel/2000000038_5_1/2000000038_5_1_7.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_26",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000038",
+        "2000000038"
+      ],
+      "panel_ids": [
+        "2000000038_5_1_10",
+        "2000000038_5_1_11"
+      ],
+      "panel_paths": [
+        "retract/2000000038/panel/2000000038_5_1/2000000038_5_1_10.png",
+        "retract/2000000038/panel/2000000038_5_1/2000000038_5_1_11.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_27",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000039",
+        "2000000039"
+      ],
+      "panel_ids": [
+        "2000000039_30_1_3",
+        "2000000039_28_1_9"
+      ],
+      "panel_paths": [
+        "retract/2000000039/panel/2000000039_30_1/2000000039_30_1_3.png",
+        "retract/2000000039/panel/2000000039_28_1/2000000039_28_1_9.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_28",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000039",
+        "2000000039"
+      ],
+      "panel_ids": [
+        "2000000039_30_1_5",
+        "2000000039_28_1_15"
+      ],
+      "panel_paths": [
+        "retract/2000000039/panel/2000000039_30_1/2000000039_30_1_5.png",
+        "retract/2000000039/panel/2000000039_28_1/2000000039_28_1_15.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_29",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000001",
+        "2000000001"
+      ],
+      "panel_ids": [
+        "2000000001_9_1_7",
+        "2000000001_9_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000001/panel/2000000001_9_1/2000000001_9_1_3.png",
+        "retract/2000000001/panel/2000000001_9_1/2000000001_9_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_30",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000041",
+        "2000000041"
+      ],
+      "panel_ids": [
+        "2000000041_4_1_20",
+        "2000000041_4_1_19"
+      ],
+      "panel_paths": [
+        "retract/2000000041/panel/2000000041_4_1/2000000041_4_1_20.png",
+        "retract/2000000041/panel/2000000041_4_1/2000000041_4_1_19.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_31",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000041",
+        "2000000041"
+      ],
+      "panel_ids": [
+        "2000000041_4_1_24",
+        "2000000041_4_1_23"
+      ],
+      "panel_paths": [
+        "retract/2000000041/panel/2000000041_4_1/2000000041_4_1_24.png",
+        "retract/2000000041/panel/2000000041_4_1/2000000041_4_1_23.png"
+      ],
+      "mask_indices": [
+        4
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_32",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000041",
+        "2000000041"
+      ],
+      "panel_ids": [
+        "2000000041_5_2_20",
+        "2000000041_5_2_19"
+      ],
+      "panel_paths": [
+        "retract/2000000041/panel/2000000041_5_2/2000000041_5_2_20.png",
+        "retract/2000000041/panel/2000000041_5_2/2000000041_5_2_19.png"
+      ],
+      "mask_indices": [
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_33",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000043",
+        "2000000043"
+      ],
+      "panel_ids": [
+        "2000000043_4_1_18",
+        "2000000043_4_1_17"
+      ],
+      "panel_paths": [
+        "retract/2000000043/panel/2000000043_4_1/2000000043_4_1_18.png",
+        "retract/2000000043/panel/2000000043_4_1/2000000043_4_1_17.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_34",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_21",
+        "2000000018_5_1_20"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_21.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_20.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_35",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000043",
+        "2000000043"
+      ],
+      "panel_ids": [
+        "2000000043_6_1_13",
+        "2000000043_6_1_14"
+      ],
+      "panel_paths": [
+        "retract/2000000043/panel/2000000043_6_1/2000000043_6_1_13.png",
+        "retract/2000000043/panel/2000000043_6_1/2000000043_6_1_14.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_36",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000044",
+        "2000000044"
+      ],
+      "panel_ids": [
+        "2000000044_8_1_12",
+        "2000000044_8_1_11"
+      ],
+      "panel_paths": [
+        "retract/2000000044/panel/2000000044_8_1/2000000044_8_1_12.png",
+        "retract/2000000044/panel/2000000044_8_1/2000000044_8_1_11.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_37",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000044",
+        "2000000044"
+      ],
+      "panel_ids": [
+        "2000000044_8_1_12",
+        "2000000044_8_1_11"
+      ],
+      "panel_paths": [
+        "retract/2000000044/panel/2000000044_8_1/2000000044_8_1_12.png",
+        "retract/2000000044/panel/2000000044_8_1/2000000044_8_1_11.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_38",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000045",
+        "2000000045"
+      ],
+      "panel_ids": [
+        "2000000045_6_1_24",
+        "2000000045_5_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000045/panel/2000000045_6_1/2000000045_6_1_24.png",
+        "retract/2000000045/panel/2000000045_5_1/2000000045_5_1_6.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_39",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000045",
+        "2000000045"
+      ],
+      "panel_ids": [
+        "2000000045_8_1_18",
+        "2000000045_8_1_15"
+      ],
+      "panel_paths": [
+        "retract/2000000045/panel/2000000045_8_1/2000000045_8_1_18.png",
+        "retract/2000000045/panel/2000000045_8_1/2000000045_8_1_15.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_40",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000046",
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_24_1_13",
+        "2000000046_24_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_13.png",
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_41",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000046",
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_24_1_16",
+        "2000000046_24_1_12"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_16.png",
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_12.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_42",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000046",
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_24_1_18",
+        "2000000046_24_1_18"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_18.png",
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_18.png"
+      ],
+      "mask_indices": [
+        6,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 2,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_43",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000046",
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_25_1_17",
+        "2000000046_25_1_17"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_25_1/2000000046_25_1_17.png",
+        "retract/2000000046/panel/2000000046_25_1/2000000046_25_1_17.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_44",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000047",
+        "2000000047"
+      ],
+      "panel_ids": [
+        "2000000047_7_1_1",
+        "2000000047_3_2_1"
+      ],
+      "panel_paths": [
+        "retract/2000000047/panel/2000000047_7_1/2000000047_7_1_1.png",
+        "retract/2000000047/panel/2000000047_3_2/2000000047_3_2_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_45",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000048",
+        "2000000048"
+      ],
+      "panel_ids": [
+        "2000000048_7_1_6",
+        "2000000048_7_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000048/panel/2000000048_7_1/2000000048_7_1_6.png",
+        "retract/2000000048/panel/2000000048_7_1/2000000048_7_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_46",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000048",
+        "2000000048"
+      ],
+      "panel_ids": [
+        "2000000048_7_1_1",
+        "2000000048_7_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000048/panel/2000000048_7_1/2000000048_7_1_1.png",
+        "retract/2000000048/panel/2000000048_7_1/2000000048_7_1_5.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_47",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000049",
+        "2000000049"
+      ],
+      "panel_ids": [
+        "2000000049_5_1_18",
+        "2000000049_5_1_13"
+      ],
+      "panel_paths": [
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_18.png",
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_13.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_48",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000049",
+        "2000000049"
+      ],
+      "panel_ids": [
+        "2000000049_5_1_22",
+        "2000000049_5_1_21"
+      ],
+      "panel_paths": [
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_22.png",
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_21.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_49",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000049",
+        "2000000049"
+      ],
+      "panel_ids": [
+        "2000000049_5_1_34",
+        "2000000049_5_1_25"
+      ],
+      "panel_paths": [
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_34.png",
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_25.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_50",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000049",
+        "2000000049"
+      ],
+      "panel_ids": [
+        "2000000049_5_1_49",
+        "2000000049_5_1_43"
+      ],
+      "panel_paths": [
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_49.png",
+        "retract/2000000049/panel/2000000049_5_1/2000000049_5_1_43.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_51",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000050",
+        "2000000050"
+      ],
+      "panel_ids": [
+        "2000000050_8_1_7",
+        "2000000050_8_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_7.png",
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Physical Object"
+    },
+    {
+      "question_id": "duplication_retract_52",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000050",
+        "2000000050"
+      ],
+      "panel_ids": [
+        "2000000050_8_1_15",
+        "2000000050_8_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_15.png",
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Physical Object"
+    },
+    {
+      "question_id": "duplication_retract_53",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000050",
+        "2000000050"
+      ],
+      "panel_ids": [
+        "2000000050_8_1_5",
+        "2000000050_8_1_15"
+      ],
+      "panel_paths": [
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_5.png",
+        "retract/2000000050/panel/2000000050_8_1/2000000050_8_1_15.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Physical Object"
+    },
+    {
+      "question_id": "duplication_retract_54",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000051",
+        "2000000051"
+      ],
+      "panel_ids": [
+        "2000000051_9_1_1",
+        "2000000051_9_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_1.png",
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Medical Imaging"
+    },
+    {
+      "question_id": "duplication_retract_55",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000051",
+        "2000000051"
+      ],
+      "panel_ids": [
+        "2000000051_9_1_1",
+        "2000000051_9_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_1.png",
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Medical Imaging"
+    },
+    {
+      "question_id": "duplication_retract_56",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000051",
+        "2000000051"
+      ],
+      "panel_ids": [
+        "2000000051_9_1_27",
+        "2000000051_9_1_13"
+      ],
+      "panel_paths": [
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_27.png",
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_13.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Medical Imaging"
+    },
+    {
+      "question_id": "duplication_retract_57",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000051",
+        "2000000051"
+      ],
+      "panel_ids": [
+        "2000000051_9_1_78",
+        "2000000051_9_1_77"
+      ],
+      "panel_paths": [
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_78.png",
+        "retract/2000000051/panel/2000000051_9_1/2000000051_9_1_77.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_58",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000040",
+        "2000000040"
+      ],
+      "panel_ids": [
+        "2000000040_8_2_18",
+        "2000000040_8_2_21"
+      ],
+      "panel_paths": [
+        "retract/2000000040/panel/2000000040_8_2/2000000040_8_2_18.png",
+        "retract/2000000040/panel/2000000040_8_2/2000000040_8_2_21.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_59",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000052",
+        "2000000052"
+      ],
+      "panel_ids": [
+        "2000000052_20_1_5",
+        "2000000052_20_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000052/panel/2000000052_20_1/2000000052_20_1_5.png",
+        "retract/2000000052/panel/2000000052_20_1/2000000052_20_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_60",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000052",
+        "2000000052"
+      ],
+      "panel_ids": [
+        "2000000052_21_1_4",
+        "2000000052_21_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000052/panel/2000000052_21_1/2000000052_21_1_4.png",
+        "retract/2000000052/panel/2000000052_21_1/2000000052_21_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_61",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000061",
+        "2000000061"
+      ],
+      "panel_ids": [
+        "2000000061_2_1_6",
+        "2000000061_2_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000061/panel/2000000061_2_1/2000000061_2_1_6.png",
+        "retract/2000000061/panel/2000000061_2_1/2000000061_2_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_62",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000040",
+        "2000000040"
+      ],
+      "panel_ids": [
+        "2000000040_3_1_24",
+        "2000000040_3_1_22"
+      ],
+      "panel_paths": [
+        "retract/2000000040/panel/2000000040_3_1/2000000040_3_1_24.png",
+        "retract/2000000040/panel/2000000040_3_1/2000000040_3_1_22.png"
+      ],
+      "mask_indices": [
+        3,
+        6,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 3,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_63",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000063",
+        "2000000063"
+      ],
+      "panel_ids": [
+        "2000000063_3_1_38",
+        "2000000063_3_1_35"
+      ],
+      "panel_paths": [
+        "retract/2000000063/panel/2000000063_3_1/2000000063_3_1_38.png",
+        "retract/2000000063/panel/2000000063_3_1/2000000063_3_1_35.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_64",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000064",
+        "2000000064"
+      ],
+      "panel_ids": [
+        "2000000064_6_1_8",
+        "2000000064_5_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000064/panel/2000000064_6_1/2000000064_6_1_8.png",
+        "retract/2000000064/panel/2000000064_5_1/2000000064_5_1_6.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_65",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000064",
+        "2000000064"
+      ],
+      "panel_ids": [
+        "2000000064_6_2_14",
+        "2000000064_6_2_3"
+      ],
+      "panel_paths": [
+        "retract/2000000064/panel/2000000064_6_2/2000000064_6_2_14.png",
+        "retract/2000000064/panel/2000000064_6_2/2000000064_6_2_3.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_66",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000064",
+        "2000000064"
+      ],
+      "panel_ids": [
+        "2000000064_6_2_3",
+        "2000000064_6_2_14"
+      ],
+      "panel_paths": [
+        "retract/2000000064/panel/2000000064_6_2/2000000064_6_2_3.png",
+        "retract/2000000064/panel/2000000064_6_2/2000000064_6_2_14.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_67",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000066",
+        "2000000066"
+      ],
+      "panel_ids": [
+        "2000000066_7_1_5",
+        "2000000066_7_1_4"
+      ],
+      "panel_paths": [
+        "retract/2000000066/panel/2000000066_7_1/2000000066_7_1_5.png",
+        "retract/2000000066/panel/2000000066_7_1/2000000066_7_1_4.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_68",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000066",
+        "2000000066"
+      ],
+      "panel_ids": [
+        "2000000066_7_1_4",
+        "2000000066_7_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000066/panel/2000000066_7_1/2000000066_7_1_4.png",
+        "retract/2000000066/panel/2000000066_7_1/2000000066_7_1_5.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_69",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_5_1_5",
+        "2000000067_5_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_5.png",
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_1.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_70",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_5_1_9",
+        "2000000067_5_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_9.png",
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_5.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_71",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_5_1_1",
+        "2000000067_5_1_9"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_1.png",
+        "retract/2000000067/panel/2000000067_5_1/2000000067_5_1_9.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_72",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_5",
+        "2000000067_6_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_5.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_73",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_6",
+        "2000000067_6_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_6.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_2.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_74",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_7",
+        "2000000067_6_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_7.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_75",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_8",
+        "2000000067_6_1_4"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_8.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_4.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_76",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_1",
+        "2000000067_6_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_1.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_77",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_2",
+        "2000000067_6_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_2.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_6.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_78",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_3",
+        "2000000067_6_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_3.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_7.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_79",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_6_1_4",
+        "2000000067_6_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_4.png",
+        "retract/2000000067/panel/2000000067_6_1/2000000067_6_1_8.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Chart"
+    },
+    {
+      "question_id": "duplication_retract_80",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_7_1_6",
+        "2000000067_7_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_6.png",
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_81",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_7_1_11",
+        "2000000067_7_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_11.png",
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_6.png"
+      ],
+      "mask_indices": [
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 2,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_82",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct",
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A",
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_7_1_6",
+        "2000000067_7_1_11"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_6.png",
+        "retract/2000000067/panel/2000000067_7_1/2000000067_7_1_11.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_83",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_2",
+        "2000000067_8_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_2.png",
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_84",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_1",
+        "2000000067_8_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_1.png",
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_2.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_85",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_7",
+        "2000000067_8_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_7.png",
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_6.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_86",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000067",
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_6",
+        "2000000067_8_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_6.png",
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_7.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_87",
+      "issue": "duplication",
+      "sub_issues": [
+        "scaling"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "B"
+      ],
+      "paper_ids": [
+        "2000000015",
+        "2000000015"
+      ],
+      "panel_ids": [
+        "2000000015_3_1_6",
+        "2000000015_3_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000015/panel/2000000015_3_1/2000000015_3_1_6.png",
+        "retract/2000000015/panel/2000000015_3_1/2000000015_3_1_5.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_88",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000016",
+        "2000000016"
+      ],
+      "panel_ids": [
+        "2000000016_6_3_3",
+        "2000000016_6_2_2"
+      ],
+      "panel_paths": [
+        "retract/2000000016/panel/2000000016_6_3/2000000016_6_3_3.png",
+        "retract/2000000016/panel/2000000016_6_2/2000000016_6_2_2.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_89",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_15",
+        "2000000018_5_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_15.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_90",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_9",
+        "2000000018_5_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_9.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_8.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_91",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_13",
+        "2000000018_5_1_9"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_13.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_9.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_92",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_9",
+        "2000000018_5_1_13"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_9.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_13.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_93",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_20",
+        "2000000018_5_1_16"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_20.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_16.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_94",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_16",
+        "2000000018_5_1_21"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_16.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_21.png"
+      ],
+      "mask_indices": [
+        2,
+        3
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 2,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_95",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_23",
+        "2000000018_5_1_22"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_23.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_22.png"
+      ],
+      "mask_indices": [
+        3,
+        6,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_96",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_26",
+        "2000000018_5_1_23"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_26.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_23.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_97",
+      "issue": "duplication",
+      "sub_issues": [
+        "parameter-modified"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "E"
+      ],
+      "paper_ids": [
+        "2000000018",
+        "2000000018"
+      ],
+      "panel_ids": [
+        "2000000018_5_1_23",
+        "2000000018_5_1_26"
+      ],
+      "panel_paths": [
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_23.png",
+        "retract/2000000018/panel/2000000018_5_1/2000000018_5_1_26.png"
+      ],
+      "mask_indices": [
+        2,
+        3
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 2,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_98",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000019",
+        "2000000019"
+      ],
+      "panel_ids": [
+        "2000000019_5_2_8",
+        "2000000019_5_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000019/panel/2000000019_5_2/2000000019_5_2_8.png",
+        "retract/2000000019/panel/2000000019_5_1/2000000019_5_1_2.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_99",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000019",
+        "2000000019"
+      ],
+      "panel_ids": [
+        "2000000019_5_2_17",
+        "2000000019_5_2_9"
+      ],
+      "panel_paths": [
+        "retract/2000000019/panel/2000000019_5_2/2000000019_5_2_17.png",
+        "retract/2000000019/panel/2000000019_5_2/2000000019_5_2_9.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_100",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000022",
+        "2000000022"
+      ],
+      "panel_ids": [
+        "2000000022_8_1_16",
+        "2000000022_8_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000022/panel/2000000022_8_1/2000000022_8_1_16.png",
+        "retract/2000000022/panel/2000000022_8_1/2000000022_8_1_7.png"
+      ],
+      "mask_indices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 4,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_101",
+      "issue": "duplication",
+      "sub_issues": [
+        "flipped"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "D"
+      ],
+      "paper_ids": [
+        "2000000022",
+        "2000000022"
+      ],
+      "panel_ids": [
+        "2000000022_8_1_10",
+        "2000000022_8_1_9"
+      ],
+      "panel_paths": [
+        "retract/2000000022/panel/2000000022_8_1/2000000022_8_1_10.png",
+        "retract/2000000022/panel/2000000022_8_1/2000000022_8_1_9.png"
+      ],
+      "mask_indices": [
+        4,
+        5
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 2,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_102",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000023",
+        "2000000023"
+      ],
+      "panel_ids": [
+        "2000000023_5_1_3",
+        "2000000023_5_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_3.png",
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_2.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_103",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000023",
+        "2000000023"
+      ],
+      "panel_ids": [
+        "2000000023_5_1_2",
+        "2000000023_5_1_3"
+      ],
+      "panel_paths": [
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_2.png",
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_3.png"
+      ],
+      "mask_indices": [
+        1,
+        4,
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 3,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_104",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000023",
+        "2000000023"
+      ],
+      "panel_ids": [
+        "2000000023_5_1_3",
+        "2000000023_5_1_4"
+      ],
+      "panel_paths": [
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_3.png",
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_4.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_105",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000023",
+        "2000000023"
+      ],
+      "panel_ids": [
+        "2000000023_5_1_4",
+        "2000000023_5_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_4.png",
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_5.png"
+      ],
+      "mask_indices": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 4,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_106",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000023",
+        "2000000023"
+      ],
+      "panel_ids": [
+        "2000000023_5_1_9",
+        "2000000023_5_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_9.png",
+        "retract/2000000023/panel/2000000023_5_1/2000000023_5_1_7.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_107",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000035"
+      ],
+      "panel_ids": [
+        "2000000035_4_1_1"
+      ],
+      "panel_paths": [
+        "retract/2000000035/panel/2000000035_4_1/2000000035_4_1_1.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_108",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000035"
+      ],
+      "panel_ids": [
+        "2000000035_4_1_2"
+      ],
+      "panel_paths": [
+        "retract/2000000035/panel/2000000035_4_1/2000000035_4_1_2.png"
+      ],
+      "mask_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_109",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_110",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_7"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_7.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 4,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_111",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_13"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_13.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_112",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_14"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_14.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_113",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_15"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_15.png"
+      ],
+      "mask_indices": [
+        4,
+        5
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 2,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_114",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000037"
+      ],
+      "panel_ids": [
+        "2000000037_10_1_21"
+      ],
+      "panel_paths": [
+        "retract/2000000037/panel/2000000037_10_1/2000000037_10_1_21.png"
+      ],
+      "mask_indices": [
+        4,
+        5
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 2,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_115",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_24_1_9"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_9.png"
+      ],
+      "mask_indices": [
+        2,
+        5,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_116",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000043"
+      ],
+      "panel_ids": [
+        "2000000043_4_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000043/panel/2000000043_4_1/2000000043_4_1_8.png"
+      ],
+      "mask_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_117",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000039"
+      ],
+      "panel_ids": [
+        "2000000039_30_1_8"
+      ],
+      "panel_paths": [
+        "retract/2000000039/panel/2000000039_30_1/2000000039_30_1_8.png"
+      ],
+      "mask_indices": [
+        7
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 1,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_118",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000046"
+      ],
+      "panel_ids": [
+        "2000000046_24_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000046/panel/2000000046_24_1/2000000046_24_1_5.png"
+      ],
+      "mask_indices": [
+        5,
+        6,
+        8
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
+      "num_blocks": 3,
+      "scenario": "Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_119",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000060"
+      ],
+      "panel_ids": [
+        "2000000060_8_1_12"
+      ],
+      "panel_paths": [
+        "retract/2000000060/panel/2000000060_8_1/2000000060_8_1_12.png"
+      ],
+      "mask_indices": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_120",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000061"
+      ],
+      "panel_ids": [
+        "2000000061_2_1_6"
+      ],
+      "panel_paths": [
+        "retract/2000000061/panel/2000000061_2_1/2000000061_2_1_6.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_121",
+      "issue": "duplication",
+      "sub_issues": [
+        "rotated"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "C"
+      ],
+      "paper_ids": [
+        "2000000063"
+      ],
+      "panel_ids": [
+        "2000000063_3_1_38"
+      ],
+      "panel_paths": [
+        "retract/2000000063/panel/2000000063_3_1/2000000063_3_1_38.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_122",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000064"
+      ],
+      "panel_ids": [
+        "2000000064_6_2_9"
+      ],
+      "panel_paths": [
+        "retract/2000000064/panel/2000000064_6_2/2000000064_6_2_9.png"
+      ],
+      "mask_indices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 6,
+      "scenario": "Others"
+    },
+    {
+      "question_id": "duplication_retract_123",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_4"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_4.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    },
+    {
+      "question_id": "duplication_retract_124",
+      "issue": "duplication",
+      "sub_issues": [
+        "direct"
+      ],
+      "has_issue": true,
+      "ground_truth": [
+        "A"
+      ],
+      "paper_ids": [
+        "2000000067"
+      ],
+      "panel_ids": [
+        "2000000067_8_1_5"
+      ],
+      "panel_paths": [
+        "retract/2000000067/panel/2000000067_8_1/2000000067_8_1_5.png"
+      ],
+      "mask_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_path": "",
+      "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
+      "num_blocks": 9,
+      "scenario": "Stained Micrograph"
+    }
+  ]
+}

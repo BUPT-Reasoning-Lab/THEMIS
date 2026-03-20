@@ -1,0 +1,31 @@
+[project]
+name = "THEMIS"
+version = "0.1.0"
+description = "Code for THEMIS database benchmark"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[project.optional-dependencies]
+
+
+[dependency-groups]
+benchmark = [
+    "chat-engine",
+    "llm-xml-parser",
+    "openai>=2.12.0",
+    "pillow>=12.0.0",
+]
+dev = [
+    "modelscope>=1.33.0",
+]
+
+postprogress = [
+    "post-progress",
+]
+
+[tool.uv.sources]
+llm-xml-parser = { path = "scripts/3rd_party/wheels/llm_xml_parser-0.1.0-py3-none-any.whl" }
+chat-engine = { path = "scripts/3rd_party/wheels/chat_engine-0.1.0-py3-none-any.whl" }
+post-progress = { path = "scripts/3rd_party/wheels/post_progress-0.1.0-py3-none-any.whl" }

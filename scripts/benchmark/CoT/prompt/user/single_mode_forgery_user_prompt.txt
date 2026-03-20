@@ -1,0 +1,3 @@
+Single-panel image for forensics.
+{NOTE}
+mask_caption: {MASK_CAPTION}

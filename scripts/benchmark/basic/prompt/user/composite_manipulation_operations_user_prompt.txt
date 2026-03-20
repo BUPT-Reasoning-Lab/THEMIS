@@ -1,0 +1,2 @@
+Multiple panels for cross-panel duplication forensics.
+panel note: {MASK_CAPTION}

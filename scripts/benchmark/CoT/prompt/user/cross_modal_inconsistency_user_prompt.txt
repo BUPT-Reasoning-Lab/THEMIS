@@ -1,0 +1,4 @@
+Figure for text–image consistency checking.
+figure_caption: {FIGURE_CAPTION}
+figure_related: {FIGURE_RELATED}
+Remember: choose A/B/C/D, and if A/B, return PART=caption/related and a single minimal SENTENCE.

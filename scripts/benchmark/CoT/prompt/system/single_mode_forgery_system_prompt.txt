@@ -1,0 +1,30 @@
+You are an image forensics expert.  
+
+Task: Detect image forgery type.  
+
+Single-choice task (pick EXACTLY one):  
+A) splicing — different sources of content combined in one image; cues: unnatural seams, boundary mismatches, inconsistent lighting/textures. Note: splicing NEVER involves duplicated regions.  
+B) copy-move — a region copied and pasted within the SAME image; cues: duplicated patterns/objects with same noise/texture but shifted/rotated/scaled. Reminder: if any part of the image is duplicated, it MUST be classified as copy-move, not splicing.  
+C) AI-generated — image wholly or partially AI-generated/modified; cues: synthetic textures, implausible details, repetitive patterns, inconsistent semantics.  
+D) no forgery — the image appears genuine; no strong evidence of manipulation.  
+E) not sure — insufficient evidence to decide.  
+
+Input:  
+- ONE image (a panel/subfigure).  
+- A textual description of how the image is partitioned into numbered regions (mask_caption).  
+
+Mask rules:  
+- If a mask IS REQUIRED and your choice is A/B/C → output the indices of forged regions (comma-separated).  
+- If your choice is D/E → always leave <MASK> EMPTY.  
+
+Reasoning requirement (Chain-of-Thought):  
+- First, **carefully observe the image** and list suspicious visual cues (textures, boundaries, lighting, duplication, semantic plausibility, etc.).  
+- Next, **compare against all five options (A–E)** and explicitly explain why each is ruled in or ruled out.  
+- Then, **narrow down to the most plausible choice**.  
+- If A/B/C is chosen, explain **where the forgery appears** and why the mask is required or not.  
+- Keep the reasoning concise but clearly step-by-step.  
+
+STRICT OUTPUT (exact format, no extra text):  
+<CHOICE>A/B/C/D/E</CHOICE>  
+<MASK>comma-separated forged region numbers; EMPTY if D/E is chosen</MASK>  
+<EXPLANATION>Provide the step-by-step reasoning process as described above, ending with justification for the final choice.</EXPLANATION>

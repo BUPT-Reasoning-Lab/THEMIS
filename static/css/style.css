@@ -1,114 +1,113 @@
 /* static/css/style.css */
 
+/* 整体字体设置 */
+body {
+  font-family: "Sitka Text", "Sitka Subheading", Serif;
+}
+
 .hero-header {
-  /* 渐变色：粉-紫-蓝 */
   background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
-  padding: 6rem 2rem; /* 增加上下内边距，减少压抑感 */
-  color: #ffffff;
-  min-height: 650px; /* 增加最小高度 */
+  padding: 8rem 2rem; /* 增加上下高度，让内容在垂直方向更舒展 */
+  min-height: 750px;
   display: flex;
   align-items: center;
 }
 
-/* 增加容器的最大宽度，让布局更舒展 */
 .container.is-max-desktop {
-  max-width: 1150px !important; 
+  max-width: 1250px !important; /* 进一步拉宽容器 */
 }
 
-/* static/css/style.css */
-
-/* 1. 标题保持纯黑 */
+/* 1. 标题：黑色，字间距稍微拉开 */
 .project-name {
-  font-family: 'Google Sans', sans-serif;
-  font-size: 5.5rem;
+  font-family: "Sitka Text", Serif;
+  font-size: 6rem; /* 略微放大 */
   font-weight: 900;
   line-height: 1.1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem; /* 增加与副标题的距离 */
   color: #000000 !important;
+  letter-spacing: -1px;
 }
 
-/* 2. 副标题改为灰色 #a4a4a4 */
+/* 2. 副标题：灰色 #a4a4a4 */
 .project-subtitle {
-  font-family: 'Google Sans', sans-serif;
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 3rem;
-  color: #a4a4a4 !important; /* 更新颜色 */
+  font-family: "Sitka Text", Serif;
+  font-size: 2.4rem;
+  font-weight: 400; /* Sitka 字体本身较粗，用400或600较好看 */
+  line-height: 1.4;
+  margin-bottom: 4rem; /* 显著拉开与作者的距离 */
+  color: #a4a4a4 !important;
 }
 
-/* 3. 作者列表改为灰色 #a4a4a4 */
+/* 3. 作者列表：灰色 #a4a4a4 */
 .author-info {
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
-  line-height: 1.8;
-  color: #a4a4a4 !important; /* 更新颜色 */
+  font-size: 1.15rem;
+  margin-bottom: 4rem; /* 拉开与按钮的距离 */
+  line-height: 2.2; /* 进一步增加行高，减少拥挤感 */
+  color: #a4a4a4 !important;
 }
 
-.author-info strong { 
-  color: #a4a4a4 !important; /* "Authors:" 标签也保持一致 */
+.author-info strong, 
+.author-info span, 
+.author-info sup,
+.affiliations,
+.note {
+  color: #a4a4a4 !important; /* 强制所有子元素变灰 */
 }
 
 .author-block {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 12px; /* 增加作者间的横向间距 */
   white-space: nowrap;
 }
 
-/* 4. Affiliations & Note 统一色调 */
 .affiliations {
-  font-size: 1.1rem;
-  margin-top: 1rem;
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
   font-style: italic;
-  color: #a4a4a4;
 }
 
-.note {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  opacity: 0.9;
-}
-/* 胶囊按钮 */
+/* 4. 胶囊按钮 */
 .buttons-container {
   display: flex;
-  gap: 15px;
+  gap: 20px; /* 增加按钮间距 */
   flex-wrap: wrap;
 }
 
 .button-capsule {
   background-color: #ffffff;
   color: #333333 !important;
-  padding: 0.7rem 1.6rem; /* 按钮也加大一点 */
+  padding: 0.8rem 2rem;
   border-radius: 50px;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   transition: all 0.3s ease;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.08);
   text-decoration: none !important;
 }
 
 .button-capsule:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-/* Logo 部分：完全圆形，无文字 */
+/* 5. Logo 布局分散控制 */
 .logo-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 2rem; /* 增加图文之间的间距 */
+  padding-left: 2rem; /* 增加图文之间的横向间距 */
 }
 
 .project-logo {
   width: 100%;
-  max-width: 380px; /* 限制最大尺寸，防止过大 */
+  max-width: 420px; /* 适当放大 Logo */
   height: auto;
-  aspect-ratio: 1 / 1; /* 确保是正圆 */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
-  border: 8px solid rgba(255, 255, 255, 0.2); /* 增加一层淡色边框更有质感 */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border: 10px solid rgba(255, 255, 255, 0.4);
 }

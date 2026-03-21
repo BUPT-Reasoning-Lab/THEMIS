@@ -107,7 +107,7 @@ body {
 /* 5. 胶囊按钮：增大字体与图标 */
 .button-capsule {
   background-color: #ffffff !important;
-  color: #000000 !important;
+  color: #666666 !important;
   border: 3px solid #000000; 
   
   /* 增加内边距，让按钮整体更宽大 */

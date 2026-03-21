@@ -75,9 +75,9 @@ body {
   margin-right: 5px;
 }
 
-/* Hover 时变为 LOKI 风格的浅蓝色/黄色 */
+/* Hover 时变为 LOKI 风格的紫色 */
 .author-link:hover {
-  color: #FFC436 !important; /* LOKI 风格黄色 */
+  color: #9623fb7c !important; /* LOKI 风格紫色 */
   text-decoration: none;
 }
 
@@ -104,25 +104,47 @@ body {
   margin-top: 0.8rem;
 }
 
-/* 5. 胶囊按钮：紧凑型布局 */
+/* 5. 胶囊按钮：分散布局与 LOKI 风格 Hover 效果 */
 .buttons-container {
   display: flex;
-  gap: 12px;
+  /* 增加间距，让布局更分散（匹配红框） */
+  gap: 25px; 
   flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 
 .button-capsule {
-  background-color: #ffffff;
-  color: #333333 !important;
-  padding: 0.5rem 1.2rem;
+  /* 初始状态：类似 LOKI 的浅色背景与深黄边框 */
+  background-color: #FFF0CE !important;
+  color: #000000 !important;
+  border: 3px solid #ffc107; /* LOKI 标志性的黄色边框 */
+  
+  padding: 10px 25px; /* 增加内边距，让按钮更饱满 */
   border-radius: 50px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: bold;
+  font-size: 1rem;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  text-decoration: none !important;
+  
+  /* 增加平滑过渡 */
+  transition: all 0.3s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: transform 0.2s;
+}
+
+.button-capsule:hover {
+  /* Hover 状态：变为你提供的深紫色半透明背景 */
+  background-color: #9623fb7c !important; 
+  color: #ffffff !important; /* 文字变白 */
+  border-color: #9623fb; /* 边框同步变紫 */
+  transform: translateY(-3px); /* 增加轻微上浮感 */
+  box-shadow: 0 8px 20px rgba(150, 35, 251, 0.2);
+}
+
+/* 针对按钮内图标的颜色同步 */
+.button-capsule:hover .icon i {
+  color: #ffffff !important;
 }
 
 /* 6. Logo：按照你红色圆圈的位置进行绝对定位 */

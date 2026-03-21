@@ -10,7 +10,7 @@ body {
 
 .hero-header {
   /* 调整渐变：粉-紫-蓝，调得更淡、更柔和，作为柔和的背景光 */
-  background: linear-gradient(135deg, #fdf1f5 0%, #ece8ff 50%, #e6e9ff 100%);
+  background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
   /* 使用 100vh 确保正好占满一屏 */
   height: 100vh; 
   min-height: 650px;

@@ -77,7 +77,7 @@ body {
 
 /* Hover 时变为 LOKI 风格的浅蓝色/黄色 */
 .author-link:hover {
-  color: #99ccff !important; /* LOKI 风格淡蓝 */
+  color: #FFC436 !important; /* LOKI 风格黄色 */
   text-decoration: none;
 }
 

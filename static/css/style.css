@@ -154,7 +154,7 @@ body {
 .button-capsule:hover {
   background-color: #9623fb !important; 
   color: #ffffff !important; 
-  border-color: #9623fb; 
+  border-color: #d846f9; 
   transform: translateY(-3px); 
   box-shadow: 0 8px 20px rgba(150, 35, 251, 0.3);
 }

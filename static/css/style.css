@@ -1,117 +1,114 @@
 /* static/css/style.css */
 
-/* 整体字体设置 */
+/* 1. 字体声明：优先使用 Sitka Text */
 body {
-  font-family: "Sitka Text", "Sitka Subheading", Serif;
+  font-family: "Sitka Text", "Sitka Small", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-header {
-  position: relative;
+  /* 渐变色：粉-紫-蓝 */
   background: linear-gradient(135deg, #f8c4d1 0%, #d6c9fb 50%, #c5d2fb 100%);
-  padding: 8rem 2rem; /* 增加上下高度，让内容在垂直方向更舒展 */
-  min-height: 100vh;
+  /* 关键：使用 100vh 确保正好占满一屏，上下 padding 缩小到 2rem */
+  padding: 2rem; 
+  height: 100vh; 
+  min-height: 600px; /* 防止在极小屏幕上重叠 */
   display: flex;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .container.is-max-desktop {
-  max-width: 1250px !important; /* 进一步拉宽容器 */
+  max-width: 1200px !important;
 }
 
-/* 1. 标题：黑色，字间距稍微拉开 */
+/* 2. 项目标题：纯黑，压缩行高和间距 */
 .project-name {
-  font-family: "Sitka Text", Serif;
-  font-size: 6rem; /* 略微放大 */
+  font-family: "Sitka Text", serif;
+  font-size: 4.5rem; /* 稍微缩小以节省空间 */
   font-weight: 900;
-  line-height: 1.1;
-  margin-bottom: 2rem; /* 增加与副标题的距离 */
+  line-height: 1.0;
+  margin-bottom: 0.8rem;
   color: #000000 !important;
   letter-spacing: -1px;
 }
 
-/* 2. 副标题：灰色 #a4a4a4 */
+/* 3. 副标题：灰色 #a4a4a4，压缩间距 */
 .project-subtitle {
-  font-family: "Sitka Text", Serif;
-  font-size: 2.4rem;
-  font-weight: 400; /* Sitka 字体本身较粗，用400或600较好看 */
-  line-height: 1.4;
-  margin-bottom: 4rem; /* 显著拉开与作者的距离 */
+  font-family: "Sitka Text", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem; /* 显著压缩 */
   color: #a4a4a4 !important;
 }
 
-/* 3. 作者列表：灰色 #a4a4a4 */
+/* 4. 作者列表：灰色 #a4a4a4，大幅压缩行高 */
 .author-info {
-  font-size: 1.15rem;
-  margin-bottom: 4rem; /* 拉开与按钮的距离 */
-  line-height: 2.2; /* 进一步增加行高，减少拥挤感 */
+  font-size: 0.95rem; /* 稍微调小字号 */
+  margin-bottom: 1.5rem; /* 显著压缩 */
+  line-height: 1.4; /* 核心：大幅降低行高，让 20 多个名字占位更小 */
   color: #a4a4a4 !important;
 }
 
-.author-info strong, 
-.author-info span, 
-.author-info sup,
-.affiliations,
-.note {
-  color: #a4a4a4 !important; /* 强制所有子元素变灰 */
+/* 强制作者区域内所有文字（包括 sup, strong）为灰色 */
+.author-info *, .affiliations, .note {
+  color: #a4a4a4 !important;
 }
 
 .author-block {
   display: inline-block;
-  margin-right: 12px; /* 增加作者间的横向间距 */
+  margin-right: 6px;
   white-space: nowrap;
 }
 
 .affiliations {
   display: block;
-  margin-top: 1.5rem;
-  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
-/* 4. 胶囊按钮 */
+.note {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+/* 5. 胶囊按钮：紧凑型布局 */
 .buttons-container {
   display: flex;
-  gap: 20px; /* 增加按钮间距 */
+  gap: 12px;
   flex-wrap: wrap;
 }
 
 .button-capsule {
   background-color: #ffffff;
   color: #333333 !important;
-  padding: 0.8rem 2rem;
+  padding: 0.5rem 1.2rem;
   border-radius: 50px;
   font-weight: 600;
+  font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 15px rgba(0,0,0,0.08);
-  text-decoration: none !important;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
 }
 
-.button-capsule:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
-}
-
-/* 5. Logo 布局分散控制 */
+/* 6. Logo：按照你红色圆圈的位置进行绝对定位 */
 .project-logo-new {
-  position: absolute; /* 绝对定位，脱离标准文档流 */
-  
-  /* 精确匹配你指定的红色圆圈区域： */
-  top: 50%;           /* 垂直居中 */
-  transform: translateY(-50%); /* 配合 top:50% 实现完美垂直居中 */
-  
-  /* LOKI 风格：左侧区域 (根据需要微调 left 和 size) */
-  left: 5%;           /* 设定具体的左侧偏移量，拉开空间 */
-  width: 45%;         /* 设定具体的宽度，使其在 column 中显得很大 */
-  max-width: 500px;   /* 设定最大尺寸，防止过大 */
-  
-  /* 基础 Logo 样式保持 */
+  position: absolute;
+  left: 5%;        /* 靠左移动 */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35%;      /* 宽度控制在一屏内 */
+  max-width: 420px;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-  
-  /* 确保 Logo 不会遮挡文字链接，允许点击 (可选，通常不加) */
-  pointer-events: none; 
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  border: 6px solid rgba(255, 255, 255, 0.4);
 }

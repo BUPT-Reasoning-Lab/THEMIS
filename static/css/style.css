@@ -27,12 +27,18 @@ body {
 /* 2. 项目标题：纯黑，压缩行高和间距 */
 .project-name {
   font-family: "Sitka Text", serif;
-  font-size: 4.5rem; /* 稍微缩小以节省空间 */
+  /* 显著加大字号，匹配红框视觉效果 */
+  font-size: 8.5rem; 
   font-weight: 900;
-  line-height: 1.0;
-  margin-bottom: 0.8rem;
+  /* 紧凑的行高 */
+  line-height: 0.9;
+  /* 增加下方边距，拉开与副标题的呼吸感 */
+  margin-bottom: 2.5rem; 
   color: #000000 !important;
-  letter-spacing: -1px;
+  /* 关键：负值字间距，让 Sitka 字体看起来更有整体感和张力 */
+  letter-spacing: -4px; 
+  /* 稍微向左偏移，对齐视觉中心 */
+  margin-left: -5px; 
 }
 
 /* 3. 副标题：灰色 #a4a4a4，压缩间距 */

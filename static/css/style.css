@@ -84,7 +84,7 @@ body {
 /* 4. 作者信息布局微调 */
 .author-info {
   font-family: "Charter", serif;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   margin-bottom: 2.5rem;
   line-height: 1.8;
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .note {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #666666 !important;
   margin-top: 0.8rem;
 }

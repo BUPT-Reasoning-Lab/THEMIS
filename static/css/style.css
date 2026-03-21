@@ -105,10 +105,19 @@ body {
 }
 
 /* 5. 胶囊按钮：增大字体与图标 */
+.buttons-container {
+  display: flex;
+  /* 调整这里：增加 gap 实现“分散布局” */
+  gap: 35px; 
+  
+  flex-wrap: wrap;
+  margin-top: 2rem; /* 增加按钮组与上方作者信息的距离，进一步减缓压抑感 */
+}
+
 .button-capsule {
   background-color: #ffffff !important;
-  color: #666666 !important;
-  border: 3px solid #000000; 
+  color: #000000 !important;
+  border: 3px solid #666666; 
   
   /* 增加内边距，让按钮整体更宽大 */
   padding: 12px 30px; 

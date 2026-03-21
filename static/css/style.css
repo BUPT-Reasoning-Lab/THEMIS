@@ -2,7 +2,7 @@
 
 /* 1. 字体声明：优先使用 Sitka Text */
 body {
-  font-family: "Sitka Text", "Sitka Small", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Charter", "Sitka Text", serif;
   margin: 0;
   padding: 0;
 }
@@ -26,7 +26,6 @@ body {
 
 /* 2. 项目标题：纯黑，压缩行高和间距 */
 .project-name {
-  font-family: "Sitka Text", serif;
   /* 显著加大字号，匹配红框视觉效果 */
   font-size: 8.5rem; 
   font-weight: 900;
@@ -43,7 +42,6 @@ body {
 
 /* 3. 副标题：灰色 #a4a4a4，压缩间距 */
 .project-subtitle {
-  font-family: "Sitka Text", serif;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.2;

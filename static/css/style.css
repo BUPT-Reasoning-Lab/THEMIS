@@ -104,7 +104,7 @@ body {
 }
 
 /* 6. Logo：实现“凸起的圆”视觉效果 */
-.project-logo-new {
+.project-logo {
   position: absolute;
   left: 8%; /* 稍微往右移一点点，让整体布局更平衡 */
   top: 50%;

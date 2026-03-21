@@ -114,10 +114,10 @@ body {
 }
 
 .button-capsule {
-  /* 初始状态：类似 LOKI 的浅色背景与深黄边框 */
-  background-color: #FFF0CE !important;
+  /* 初始状态：类似 LOKI 的浅色背景与黑色边框 */
+  background-color: #ffffff !important;
   color: #000000 !important;
-  border: 3px solid #ffc107; /* LOKI 标志性的黄色边框 */
+  border: 3px solid #000000; 
   
   padding: 10px 25px; /* 增加内边距，让按钮更饱满 */
   border-radius: 50px;

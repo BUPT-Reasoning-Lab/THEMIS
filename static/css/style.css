@@ -58,27 +58,50 @@ body {
   color: #000000 !important;
 }
 
-/* 强制作者区域内所有文字（包括 sup, strong）为灰色 */
-.author-info *, .affiliations, .note {
-  color: #000000 !important;
+/* 2. 莫兰迪深紫色标签样式 */
+.label-morandi {
+  color: #6d5d6e !important; /* 低饱和度莫兰迪深紫 */
+  font-style: italic;
+  font-weight: 700;
+  margin-right: 10px;
 }
 
-.author-block {
+/* 3. 作者链接：默认黑色 */
+.author-link {
+  color: #000000 !important; /* 强制黑色 */
+  text-decoration: none;
+  transition: color 0.3s ease;
   display: inline-block;
-  margin-right: 6px;
-  white-space: nowrap;
+  margin-right: 5px;
+}
+
+/* Hover 时变为 LOKI 风格的浅蓝色/黄色 */
+.author-link:hover {
+  color: #99ccff !important; /* LOKI 风格淡蓝 */
+  text-decoration: none;
+}
+
+/* 4. 作者信息布局微调 */
+.author-info {
+  font-family: "Charter", serif;
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
 }
 
 .affiliations {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  font-style: italic;
+  margin-top: 1rem;
+}
+
+.affiliation-text {
+  color: #000000;
+  font-weight: 500;
 }
 
 .note {
-  font-size: 0.8rem;
-  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: #666666 !important;
+  margin-top: 0.8rem;
 }
 
 /* 5. 胶囊按钮：紧凑型布局 */
@@ -105,7 +128,7 @@ body {
 /* 6. Logo：按照你红色圆圈的位置进行绝对定位 */
 .project-logo{
   position: absolute;
-  left: 5%;        /* 靠左移动 */
+  left: 2%;        /* 靠左移动 */
   top: 50%;
   transform: translateY(-50%);
   width: 35%;      /* 宽度控制在一屏内 */

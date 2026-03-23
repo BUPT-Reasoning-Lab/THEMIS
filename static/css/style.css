@@ -37,7 +37,7 @@ body {
 
 /* 3. 副标题：紧贴标题，压缩下方间距 */
 .project-subtitle {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   font-weight: 700 !important;
   line-height: 1.15;    /* 压缩副标题内部行高 */
   margin-bottom: 1.2rem; /* 大幅减小副标题与作者列表间距 */
@@ -105,7 +105,7 @@ body {
 }
 
 .affiliations {
-  margin-top: 0.1rem !important; /* 让单位紧贴名字 */
+  margin-top: 0.8rem !important; /* 让单位紧贴名字 */
 }
 
 .affiliation-text {

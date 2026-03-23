@@ -32,7 +32,7 @@ body {
   /* 紧凑的行高 */
   line-height: 0.9;
   /* 增加下方边距，拉开与副标题的呼吸感 */
-  margin-bottom: 2.5rem; 
+  margin-bottom: 1.5rem; 
   color: #000000 !important;
   /* 关键：负值字间距，让 Sitka 字体看起来更有整体感和张力 */
   /* letter-spacing: -4px;  */
@@ -42,7 +42,7 @@ body {
 
 /* 3. 副标题：灰色，压缩间距 */
 .project-subtitle {
-  /* font-family: "Charter", serif; */
+  font-family: "Charter", serif;
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;

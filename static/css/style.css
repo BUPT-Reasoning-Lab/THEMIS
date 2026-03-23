@@ -42,7 +42,7 @@ body {
 
 /* 3. 副标题：灰色，压缩间距 */
 .project-subtitle {
-  font-family: "Charter", serif;
+  /* font-family: "Charter", serif; */
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;
@@ -61,9 +61,9 @@ body {
 
 /* 2. 莫兰迪深紫色标签样式 */
 .label-morandi {
-  color: #9623fb7c !important; /* 低饱和度莫兰迪深紫 */
+  color: #9623fb !important; /* 低饱和度莫兰迪深紫 */
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
   margin-right: 10px;
 }
 

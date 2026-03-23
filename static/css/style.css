@@ -40,27 +40,34 @@ body {
 .project-subtitle {
   font-family: "Charter", serif;
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 700 !important;
   line-height: 1.1;    /* 压缩副标题内部行高 */
   margin-bottom: 1.2rem; /* 大幅减小副标题与作者列表间距 */
   color: #000000 !important;
 }
 
 /* 4. 作者列表：彻底清理重复定义，极致紧凑 */
+/* 4. 作者列表：极致压缩垂直高度 */
 .author-info {
   font-family: "Charter", serif;
-  font-size: 1.1rem;
+  font-size: 1.1rem; /* 保持字号 */
   font-weight: 600;
   color: #000000 !important;
-  /* 关键：行间距设为 1.2，解决列表太散的问题 */
-  line-height: 1.2 !important; 
-  margin-bottom: 1.5rem; 
+  
+  /* 核心：将行高降至极限 (1.1 甚至 1.05)，消除文字上下的空气感 */
+  line-height: 1.1 !important; 
+  
+  /* 压缩整块区域与上下元素的间距 */
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+  
+  /* 确保没有内边距撑开高度 */
+  padding: 0;
 }
 
-/* 移除你代码后面多余的 .author-info 块，确保样式不被覆盖 */
-
 .authors {
-  margin-bottom: 0.3rem !important;
+  /* 消除段落自带的下方间距 */
+  margin-bottom: 0.1rem !important;
 }
 
 .label-morandi {
@@ -73,7 +80,7 @@ body {
 }
 
 .affiliations {
-  margin-top: 0.2rem !important; /* 让单位紧贴名字 */
+  margin-top: 0.1rem !important; /* 让单位紧贴名字 */
 }
 
 .affiliation-text {

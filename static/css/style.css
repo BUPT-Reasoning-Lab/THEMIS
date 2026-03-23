@@ -114,9 +114,9 @@ body {
 }
 
 .note {
-  font-size: 0.85rem;
+  font-size: 1.0rem;
   color: #666666 !important;
-  margin-top: 0.2rem; /* 让备注紧贴 */
+  margin-top: 0.8rem; /* 让备注紧贴 */
 }
 
 /* 5. 胶囊按钮：增大字体与图标 */

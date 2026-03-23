@@ -44,7 +44,7 @@ body {
 .project-subtitle {
   font-family: "Charter", serif;
   font-size: 2.2rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.3;
   margin-bottom: 3.5rem; /* 大幅拉开间距，解决局促感 */
   color: #000000 !important; /* 深石墨灰，比原本的灰色更显档次 */
@@ -53,8 +53,9 @@ body {
 /* 4. 作者列表：灰色 #a4a4a4，大幅压缩行高 */
 .author-info {
   font-size: 1.1rem;
+  font-weight: 600;
   margin-bottom: 3rem; /* 显著压缩 */
-  line-height: 1.6; /* 核心：大幅降低行高，让 20 多个名字占位更小 */
+  line-height: 1.4; /* 核心：大幅降低行高，让 20 多个名字占位更小 */
   color: #000000 !important;
 }
 

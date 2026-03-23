@@ -1,8 +1,8 @@
 /* static/css/style.css */
 
-/* 1. 字体声明：优先使用 Sitka Text */
+/* 1. 字体声明：优先使用 Charter */
 body {
-  font-family: "Charter", "Sitka Text", serif;
+  font-family: "Charter", serif;
   margin: 0;
   padding: 0;
 }
@@ -42,7 +42,6 @@ body {
 
 /* 3. 副标题：灰色，压缩间距 */
 .project-subtitle {
-  font-family: "Charter", serif;
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;

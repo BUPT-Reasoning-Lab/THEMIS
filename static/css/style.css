@@ -42,6 +42,7 @@ body {
   line-height: 1.1;    /* 压缩副标题内部行高 */
   margin-bottom: 1.2rem; /* 大幅减小副标题与作者列表间距 */
   color: #000000 !important;
+  max-width: 720px;
 }
 
 /* 4. 作者列表：彻底清理重复定义，极致紧凑 */

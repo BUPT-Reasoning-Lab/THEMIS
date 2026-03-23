@@ -32,7 +32,7 @@ body {
   /* 紧凑的行高 */
   line-height: 0.9;
   /* 增加下方边距，拉开与副标题的呼吸感 */
-  margin-bottom: 1.5rem; 
+  margin-bottom: 2.5rem; 
   color: #000000 !important;
   /* 关键：负值字间距，让 Sitka 字体看起来更有整体感和张力 */
   /* letter-spacing: -4px;  */
@@ -45,7 +45,7 @@ body {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: 1.5rem; /* 大幅拉开间距，解决局促感 */
+  margin-bottom: 3.5rem; /* 大幅拉开间距，解决局促感 */
   color: #000000 !important; /* 深石墨灰，比原本的灰色更显档次 */
 }
 
@@ -179,7 +179,6 @@ body {
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
   border: 6px solid rgba(255, 255, 255, 0.4);
 }
-
 
 
 

@@ -179,3 +179,60 @@ body {
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
   border: 6px solid rgba(255, 255, 255, 0.4);
 }
+
+/* --- 响应式适配 (Mobile Responsive) --- */
+
+@media screen and (max-width: 768px) {
+  /* 1. 让第一屏高度自适应，不要锁定 100vh，否则内容多会溢出 */
+  .hero-header {
+    height: auto;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    display: block; /* 取消 flex，改用块级排布 */
+  }
+
+  /* 2. 重置 Logo：取消绝对定位，让它回到文档流中居中显示 */
+  .project-logo {
+    position: relative; /* 取消 absolute */
+    left: 0;
+    top: 0;
+    transform: none;
+    display: block;
+    margin: 0 auto 2rem auto; /* 居中并增加下方间距 */
+    width: 60%; /* 手机端缩小一点比例 */
+    max-width: 250px;
+    border-width: 6px; /* 缩小边框 */
+  }
+
+  /* 3. 调整标题字号：8.5rem 在手机上太大了，必须缩小 */
+  .project-name {
+    font-size: 3.5rem; /* 缩小字号 */
+    text-align: center;
+    letter-spacing: -1px;
+    margin-left: 0;
+  }
+
+  /* 4. 调整副标题和作者：居中对齐 */
+  .project-subtitle {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .author-info {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* 5. 按钮：居中排列 */
+  .buttons-container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .button-capsule {
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
+}

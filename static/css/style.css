@@ -26,7 +26,6 @@ body {
 
 /* 2. 项目标题：极致压缩字距，防止超出 */
 .project-name {
-  font-family: "Charter", serif;
   font-size: 8.5rem; 
   font-weight: 900;
   line-height: 0.8;    /* 进一步压缩行高 */
@@ -38,7 +37,6 @@ body {
 
 /* 3. 副标题：紧贴标题，压缩下方间距 */
 .project-subtitle {
-  font-family: "Charter", serif;
   font-size: 2.2rem;
   font-weight: 700 !important;
   line-height: 1.1;    /* 压缩副标题内部行高 */
@@ -47,9 +45,7 @@ body {
 }
 
 /* 4. 作者列表：彻底清理重复定义，极致紧凑 */
-/* 4. 作者列表：极致压缩垂直高度 */
 .author-info {
-  font-family: "Charter", serif;
   font-size: 1.1rem; /* 保持字号 */
   font-weight: 600;
   color: #000000 !important;

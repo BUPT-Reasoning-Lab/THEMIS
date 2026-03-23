@@ -67,6 +67,34 @@ body {
   margin-bottom: 0.1rem !important;
 }
 
+/* 3. 作者链接：默认黑色 */
+
+.author-link {
+
+  color: #000000 !important; /* 强制黑色 */
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+
+  display: inline-block;
+
+  margin-right: 5px;
+
+}
+
+/* Hover 时变为 LOKI 风格的紫色 */
+
+.author-link:hover {
+
+  color: #9623fb7c !important; /* LOKI 风格紫色 */
+
+  text-decoration: none;
+
+}
+
+
+
 .label-morandi {
   color: #9623fb !important; 
   font-style: italic;

@@ -27,7 +27,6 @@ body {
 /* 2. 项目标题：纯黑，压缩行高和间距 */
 .project-name {
   /* 显著加大字号，匹配红框视觉效果 */
-  font-family: "Charter";
   font-size: 8.5rem; 
   font-weight: 700;
   /* 紧凑的行高 */

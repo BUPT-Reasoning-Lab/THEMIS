@@ -253,7 +253,7 @@
 
         <div class="bench-content-container">
           
-          <div id="Pipeline" class="tab-panel active">
+          <div id="Pipeline" class="bench-panel active">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/Pipeline.png" alt="Construction Pipeline">
@@ -268,7 +268,7 @@
             </div>
           </div>
 
-          <div id="QADesign" class="tab-panel">
+          <div id="QADesign" class="bench-panel">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/QA.png" alt="QA Design Examples">
@@ -277,7 +277,7 @@
             </div>
           </div>
 
-          <div id="Statistic" class="tab-panel">
+          <div id="Statistic" class="bench-panel">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/Statistic.png" alt="Benchmark Data Statistics">
@@ -352,11 +352,35 @@
 <script>
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tab-panel");
-  for (i = 0; i < tabcontent.length; i++) { tabcontent[i].classList.remove("active"); }
-  tablinks = document.getElementsByClassName("tab-btn");
-  for (i = 0; i < tablinks.length; i++) { tablinks[i].classList.remove("active"); }
-  document.getElementById(tabName).classList.add("active");
+  
+  // 1. 找到当前点击按钮所属的那个 Section 容器
+  // 这样点击 Benchmark 的按钮，不会影响到上面的 Findings
+  var container = evt.currentTarget.closest('.column'); 
+
+  // 2. 仅隐藏当前容器内的所有面板
+  tabcontent = container.getElementsByClassName("tab-panel");
+  if (tabcontent.length === 0) {
+      // 如果你 Benchmark 用的是 bench-panel，这里做个兼容
+      tabcontent = container.getElementsByClassName("bench-panel");
+  }
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+    tabcontent[i].style.display = "none";
+  }
+
+  // 3. 仅取消当前容器内所有按钮的 active 状态
+  tablinks = container.getElementsByClassName("tab-btn");
+  if (tablinks.length === 0) {
+      tablinks = container.getElementsByClassName("tab-btn-bench");
+  }
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+
+  // 4. 显示点击的那个面板，并激活按钮
+  var targetPanel = document.getElementById(tabName);
+  targetPanel.classList.add("active");
+  targetPanel.style.display = "block"; // 确保显示
   evt.currentTarget.classList.add("active");
 }
 </script>

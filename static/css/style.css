@@ -204,46 +204,64 @@ body {
 }
 .tab-btn.active { background: #9623fb; color: #fff !important; box-shadow: 0 4px 12px rgba(150, 35, 251, 0.2); }
 
-/* 2. 左右布局容器 */
-.findings-layout {
+/* 2. 上下堆叠容器 */
+.findings-stack {
   display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* 图片和下方卡片之间的距离 */
   align-items: center;
-  gap: 2rem;
-  text-align: left;
+}
+
+/* 图片全宽容器 */
+.findings-visual-full {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.findings-visual-full img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /* 左侧大图：占 60% 宽度 */
 .findings-visual { flex: 6; }
 .findings-visual img { width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
 
-/* 右侧卡片组：占 40% 宽度 */
-.findings-cards {
-  flex: 4;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+/* 3. 2x2 矩阵布局 */
+.findings-matrix {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 核心：强制分成两列 */
+  gap: 20px;
+  text-align: left;
 }
 
-/* 3. 单个小卡片样式：高透明紫色，无侧边条 */
-.insight-card-mini {
-  background-color: rgba(150, 35, 251, 0.04) !important; /* 极淡紫色 */
+/* 4. 升级版卡片样式 (替代原来的 .insight-card-mini) */
+.insight-card-modern {
+  background-color: rgba(150, 35, 251, 0.05) !important; /* 5% 透明度紫色 */
   border: 1px solid rgba(150, 35, 251, 0.1);
-  padding: 1.2rem;
-  border-radius: 12px;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  transition: all 0.2s ease;
+  padding: 1.5rem;
+  border-radius: 16px;
+  display: flex;
+  gap: 15px;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.insight-card-mini:hover {
-  background-color: rgba(150, 35, 251, 0.08) !important;
-  transform: translateX(5px); /* 悬停时轻微右移，增加交互感 */
+.insight-card-modern:hover {
+  background-color: rgba(150, 35, 251, 0.1) !important;
+  transform: translateY(-5px); /* 改为向上浮起，矩阵布局里向上浮动更高级 */
+  box-shadow: 0 10px 20px rgba(150, 35, 251, 0.1);
 }
 
-.insight-card-mini strong {
-  color: #9623fb; /* 标题用紫色突出 */
+.insight-card-modern strong {
+  color: #9623fb;
   display: block;
-  margin-bottom: 4px;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
 }
 
 /* 动画效果 */

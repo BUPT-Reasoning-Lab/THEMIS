@@ -307,7 +307,55 @@ body {
 .tab-panel.active { display: flex; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
+/* Benchmark 图片容器：限制宽度让图变小 */
+.bench-visual-wrap {
+  width: 100%;
+  /* 关键：调小最大宽度（比如从 950px 降到 800px），图就会等比例缩小 */
+  max-width: 800px; 
+  margin: 0 auto; /* 居中显示容器 */
+  
+  background-color: rgba(150, 35, 251, 0.05) !important; 
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(150, 35, 251, 0.08);
+  border: 1px solid rgba(150, 35, 251, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
 
+/* 图片区域：增加内边距让图进一步“内缩” */
+.image-wrapper-modern {
+  padding: 30px 50px !important; /* 左右边距加大，图会显得更精致 */
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper-modern img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 图注：左对齐排版 */
+.bench-caption {
+  padding: 1.5rem !important;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+  
+  /* 关键：强制左对齐 */
+  text-align: left !important; 
+  
+  /* 如果想要两端对齐的学术感，可以用 justify */
+  /* text-align: justify !important; */
+  
+  background-color: transparent;
+}
+
+.bench-caption strong {
+  color: #9623fb; /* 标题保持紫色 */
+}
 /* ==========================================================
    暑期实习专用：高透明度紫色人才名片
    ========================================================== */

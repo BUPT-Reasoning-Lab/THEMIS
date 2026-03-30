@@ -195,6 +195,63 @@ body {
   border: 6px solid rgba(255, 255, 255, 0.4);
 }
 
+/* 1. Tab 按钮样式 (沿用之前的莫兰迪紫) */
+.results-tabs { display: flex; justify-content: center; gap: 15px; margin-bottom: 2rem; }
+.tab-btn {
+  padding: 8px 20px; font-family: "Charter", serif; font-weight: 700;
+  border: 2px solid rgba(150, 35, 251, 0.1); background: #fff; color: #666;
+  border-radius: 50px; cursor: pointer; transition: all 0.3s;
+}
+.tab-btn.active { background: #9623fb; color: #fff !important; box-shadow: 0 4px 12px rgba(150, 35, 251, 0.2); }
+
+/* 2. 左右布局容器 */
+.findings-layout {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-align: left;
+}
+
+/* 左侧大图：占 60% 宽度 */
+.findings-visual { flex: 6; }
+.findings-visual img { width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+
+/* 右侧卡片组：占 40% 宽度 */
+.findings-cards {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 3. 单个小卡片样式：高透明紫色，无侧边条 */
+.insight-card-mini {
+  background-color: rgba(150, 35, 251, 0.04) !important; /* 极淡紫色 */
+  border: 1px solid rgba(150, 35, 251, 0.1);
+  padding: 1.2rem;
+  border-radius: 12px;
+  font-family: "Charter", serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+
+.insight-card-mini:hover {
+  background-color: rgba(150, 35, 251, 0.08) !important;
+  transform: translateX(5px); /* 悬停时轻微右移，增加交互感 */
+}
+
+.insight-card-mini strong {
+  color: #9623fb; /* 标题用紫色突出 */
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* 动画效果 */
+.tab-panel { display: none; animation: fadeIn 0.4s ease; }
+.tab-panel.active { display: flex; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
 
 /* ==========================================================
    暑期实习专用：高透明度紫色人才名片

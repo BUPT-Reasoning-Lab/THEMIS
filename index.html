@@ -117,14 +117,49 @@
 
 <hr>
 
-<section class="section">
+<section class="section" id="findings-display">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">
         <h2 class="title is-3 section-title">Findings</h2>
-        <div class="content has-text-justified abstract-text">
-          We present THEMIS, a novel multi-task benchmark designed to comprehensively evaluate multimodal large language models (MLLMs) on visual fraud reasoning within real-world academic scenarios. 
+        
+        <div class="results-tabs">
+          <button class="tab-btn active" onclick="openTab(event, 'MainFindings')">Main Findings</button>
+          <button class="tab-btn" onclick="openTab(event, 'FineGrained')">Fine-grained Analysis</button>
         </div>
+
+        <div class="tab-content-container">
+          
+          <div id="MainFindings" class="tab-panel active">
+            <div class="findings-layout">
+              <div class="findings-visual">
+                <img src="static/images/main_findings_overview.png" alt="Main Findings Visual">
+              </div>
+              <div class="findings-cards">
+                <div class="insight-card-mini"><strong>F1: Real-World Gap.</strong> Text here...</div>
+                <div class="insight-card-mini"><strong>F2: Fraud Diversity.</strong> Text here...</div>
+                <div class="insight-card-mini"><strong>F3: MLLM Bottleneck.</strong> Text here...</div>
+                <div class="insight-card-mini"><strong>F4: Stringent Test.</strong> Text here...</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="FineGrained" class="tab-panel">
+            <div class="findings-layout">
+              <div class="findings-visual">
+                <img src="static/images/fine_grained_visual.png" alt="Fine Grained Visual">
+              </div>
+              <div class="findings-cards">
+                <div class="insight-card-mini"><strong>Analysis 1:</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Analysis 2:</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Analysis 3:</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Analysis 4:</strong> Specific details...</div>
+              </div>
+            </div>
+          </div>
+
+        </div> </div>
+    </div>
   </div>
 </section>
 
@@ -184,3 +219,15 @@
 </section>
 </body>
 </html>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tab-panel");
+  for (i = 0; i < tabcontent.length; i++) { tabcontent[i].classList.remove("active"); }
+  tablinks = document.getElementsByClassName("tab-btn");
+  for (i = 0; i < tablinks.length; i++) { tablinks[i].classList.remove("active"); }
+  document.getElementById(tabName).classList.add("active");
+  evt.currentTarget.classList.add("active");
+}
+</script>

@@ -188,7 +188,8 @@
                   <div class="card-num">01</div>
                   <div class="card-content">
                     <strong>Lack of transformation sensitivity.</strong> 
-                    Detailed analysis shows that current models struggle to perceive subtle image transformations, leading to...
+                    Models perform reasonably on direct reuse but degrade markedly under geometric transformations or appearance adjustments. They often fail to detect duplication and cannot determine the transformation type, underscoring the limited spatial reasoning ability of current MLLMs and their insufficient robustness to transformations.
+                    This reveals that current models have basic similarity-matching ability but remain weak in edge sensitivity.
                   </div>
                 </div>
 
@@ -226,18 +227,55 @@
 </section>
 
 <hr>
-<section class="section" id="findings-display">
+
+<section class="section has-background-light" id="benchmark">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <h2 class="title is-3 section-title">Benchmark</h2>
-
-       <div class="results-tabs">
+        
+        <div class="results-tabs">
           <button class="tab-btn-bench active" onclick="openBench(event, 'Pipeline')">Construction Pipeline</button>
           <button class="tab-btn-bench" onclick="openBench(event, 'QADesign')">QA Design</button>
           <button class="tab-btn-bench" onclick="openBench(event, 'Statistic')">Statistic</button>
         </div>
-      </div>
+
+        <div class="bench-content-container">
+          
+          <div id="Pipeline" class="bench-panel active">
+            <div class="bench-visual-wrap">
+              <div class="image-wrapper-modern">
+                <img src="static/images/Pipeline.png" alt="Construction Pipeline">
+              </div>
+              <p class="bench-caption">
+                <strong>Dataset construction pipeline of THEMIS.</strong> 
+                The dataset is built through 2 stages: Stage
+                1: Extraction and Parsing, where figures, captions, and related sentences are parsed from scientific
+                PDFs and segmented into panels; Stage 2: Fraud Data Generation, where 5 major fraud types
+                (Splicing, Copy-Move, AI-Generated, Duplication, and Text–Image Inconsistency) are applied
+                to construct challenging tasks.</p>
+            </div>
+          </div>
+
+          <div id="QADesign" class="bench-panel">
+            <div class="bench-visual-wrap">
+              <div class="image-wrapper-modern">
+                <img src="static/images/qa_design.png" alt="QA Design Examples">
+              </div>
+              <p class="bench-caption"><strong>(b) QA task design examples.</strong> Demonstrating multiple tasks like forgery identification, fine-grained reasoning, and text-image grounding.</p>
+            </div>
+          </div>
+
+          <div id="Statistic" class="bench-panel">
+            <div class="bench-visual-wrap">
+              <div class="image-wrapper-modern">
+                <img src="static/images/statistics.png" alt="Benchmark Data Statistics">
+              </div>
+              <p class="bench-caption"><strong>(c) Benchmark data statistics.</strong> Visualizing the distribution of manipulation types, paper fields, and question diversity.</p>
+            </div>
+          </div>
+
+        </div> </div>
     </div>
   </div>
 </section>

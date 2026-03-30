@@ -125,7 +125,7 @@
         
         <div class="results-tabs">
           <button class="tab-btn active" onclick="openTab(event, 'MainFindings')">Main Findings</button>
-          <button class="tab-btn" onclick="openTab(event, 'FineGrained')">Fine-grained Analysis</button>
+          <button class="tab-btn" onclick="openTab(event, 'FineGrained')">Fine-Grained Analysis</button>
         </div>
 
         <div class="tab-content-container">
@@ -177,16 +177,15 @@
           <div id="FineGrained" class="tab-panel">
             <div class="findings-stack">
               
-              <div class="findings-visual-full">
-                <div class="table-wrapper-modern">
-                  <div class="table-tag">Fine-grained Diagnostic Analysis</div>
-                  <img src="static/images/fine_grained.png" alt="Fine Grained Visual">
-                </div>
+              <div class="dual-images">
+                <img src="static/images/fine_grained.png" alt="Visual 1">
+                <div class="divider-line"></div> 
+                <img src="static/images/real-world.png" alt="Visual 2">
               </div>
 
               <div class="findings-matrix">
                 <div class="insight-card-modern">
-                  <div class="card-num">05</div>
+                  <div class="card-num">01</div>
                   <div class="card-content">
                     <strong>Lack of transformation sensitivity.</strong> 
                     Detailed analysis shows that current models struggle to perceive subtle image transformations, leading to...
@@ -194,7 +193,7 @@
                 </div>
 
                 <div class="insight-card-modern">
-                  <div class="card-num">06</div>
+                  <div class="card-num">02</div>
                   <div class="card-content">
                     <strong>Lack of robustness to perturbations.</strong> 
                     Current models exhibit significant performance drops when faced with minor input perturbations or noise...
@@ -202,7 +201,7 @@
                 </div>
 
                 <div class="insight-card-modern">
-                  <div class="card-num">07</div>
+                  <div class="card-num">03</div>
                   <div class="card-content">
                     <strong>Insufficient edge perception.</strong> 
                     The failure to accurately locate forged regions stems from a fundamental weakness in boundary and edge detection...
@@ -210,7 +209,7 @@
                 </div>
 
                 <div class="insight-card-modern">
-                  <div class="card-num">08</div>
+                  <div class="card-num">04</div>
                   <div class="card-content">
                     <strong>Deceptiveness of synthetic fraud.</strong> 
                     Synthetic data exhibit a level of deceptiveness comparable to real fraud cases, presenting a unique challenge...

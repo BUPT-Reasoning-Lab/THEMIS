@@ -216,7 +216,7 @@ body {
 .findings-visual-full {
   width: 100%;
   /* 技巧：不要让图撑满全屏，限制在 90% 左右最舒适 */
-  max-width: 950px; 
+  max-width: 850px; 
   margin: 0 auto; /* 居中 */
   
   background: #ffffff;
@@ -270,6 +270,36 @@ body {
   display: block;
   font-size: 1.1rem;
   margin-bottom: 6px;
+}
+
+/* 针对双图包装盒的专项优化 */
+.dual-visual-wrapper {
+  padding: 30px !important; /* 稍微加大内边距，让两张图有呼吸感 */
+}
+
+.dual-images {
+  display: flex;
+  align-items: center; /* 关键：确保两张图垂直居中对齐 */
+  justify-content: space-around; /* 均匀分布 */
+  gap: 30px;
+  width: 100%;
+}
+
+.dual-images img {
+  /* 核心：两张图各占接近一半，但留出间隙 */
+  flex: 1;
+  max-width: 46%; 
+  height: auto;
+  object-fit: contain; /* 保持原比例，不拉伸 */
+  /* 如果图片背景不是纯白，可以加个超细的内边距或阴影 */
+  /* filter: drop-shadow(0 5px 15px rgba(0,0,0,0.05)); */
+}
+
+/* 可选：中间的分隔线，增加学术精密感 */
+.divider-line {
+  width: 1px;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 /* 动画效果 */

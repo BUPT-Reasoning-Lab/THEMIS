@@ -196,6 +196,76 @@ body {
 }
 
 
+/* 暑期实习板块专项优化 */
+.career-card {
+  background: #ffffff;
+  border-radius: 12px; /* 减小圆角，显得更严谨 */
+  padding: 2.5rem;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  margin-top: 1.5rem;
+}
+
+.career-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 2rem !important;
+}
+
+.sub-career-text {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* 关键信息排版：左对齐，像简历一样清晰 */
+.intern-specs {
+  display: inline-block;
+  text-align: left;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.spec-item {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.spec-label {
+  color: #666;
+  font-weight: 600;
+  width: 90px;
+  display: inline-block;
+}
+
+.spec-value {
+  color: #000;
+  font-weight: 700;
+}
+
+.contact-hint {
+  font-size: 0.95rem;
+  color: #9623fb; /* 保持紫色，引导视觉 */
+  font-weight: 600;
+  margin-bottom: 0.5rem !important;
+}
+
+.career-email {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #000 !important;
+  text-decoration: none;
+  border-bottom: 3px solid #9623fb;
+}
+
+.career-email:hover {
+  color: #9623fb !important;
+  background: rgba(150, 35, 251, 0.05);
+}
+
 
 
 /* --- 响应式适配 (Mobile Responsive) --- */

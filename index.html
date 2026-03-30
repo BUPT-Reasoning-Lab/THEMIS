@@ -142,7 +142,10 @@
                   <div class="card-num">01</div>
                   <div class="card-content">
                     <strong>Overall performance remains limited.</strong> 
-                    Across all evaluated tasks, MLLMs exhibit significant room for improvement, with even the SOTA GPT-5 reaching a peak BRI of only 56.15%.
+                    Across all evaluated tasks, MLLMs exhibit significant
+                    room for improvement, with even the SOTA GPT-5 reaching a peak BRI of only 56.15%. Notably,
+                    the open-source Qwen2.5-VL-72B achieved 47.16%, performing on par with several proprietary
+                    models and highlighting the competitive potential of open-weight architectures.
                   </div>
                 </div>
 
@@ -150,7 +153,9 @@
                   <div class="card-num">02</div>
                   <div class="card-content">
                     <strong>Models exhibit pronounced specialization.</strong> 
-                    Most MLLMs excel in one or two subtasks but fall short in others, revealing substantial imbalance in integrated visual fraud reasoning.
+                    Most MLLMs excel in one or two subtasks but fall
+                    short in others, revealing substantial imbalance. This specialization highlights the lack of integrated
+                    visual fraud reasoning capabilities in current models.
                   </div>
                 </div>
 
@@ -158,7 +163,10 @@
                   <div class="card-num">03</div>
                   <div class="card-content">
                     <strong>Localization is markedly harder.</strong> 
-                    Performance declined across all MLLMs when shifting to Localization; GPT-5 dropped by 55%, while Gemini 2.5 Flash showed stronger spatial capacity.
+                    Performance consistently declined across all
+                    MLLMs when shifting from Single-Mode Forgery Identification task to Localization task, with
+                    GPT-5 dropping by 55% and OpenAI o4-mini-high by 61%. By contrast, Gemini 2.5 Flash exhibited
+                    only minor declines (14%), indicating relatively stronger spatial perceptual capacity
                   </div>
                 </div>
 
@@ -166,7 +174,9 @@
                   <div class="card-num">04</div>
                   <div class="card-content">
                     <strong>Limitations in cross-modal alignment.</strong> 
-                    MLLMs struggle to ground judgments in specific textual spans, likely due to overreliance on global semantics over local mappings.
+                    Although they demonstrate relatively high
+                    judgment accuracy on Text–Image Inconsistency subtask, they struggle to ground these judgments
+                    in specific textual spans. This limitation may stem from an overreliance on global semantic associations while lacking sufficient modeling of local cross-modal mappings.
                   </div>
                 </div>
               </div>
@@ -188,7 +198,8 @@
                   <div class="card-num">01</div>
                   <div class="card-content">
                     <strong>Lack of transformation sensitivity.</strong> 
-                    Models perform reasonably on direct reuse but degrade markedly under geometric transformations or appearance adjustments. They often fail to detect duplication and cannot determine the transformation type, underscoring the limited spatial reasoning ability of current MLLMs and their insufficient robustness to transformations.
+                    Models perform reasonably on direct reuse but degrade markedly under geometric transformations or appearance adjustments. 
+                    They often fail to detect duplication and cannot determine the transformation type, underscoring the limited spatial reasoning ability of current MLLMs and their insufficient robustness to transformations.
                     This reveals that current models have basic similarity-matching ability but remain weak in edge sensitivity.
                   </div>
                 </div>

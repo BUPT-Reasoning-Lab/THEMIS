@@ -357,7 +357,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 1,
+      "num_blocks": 9,
       "scenario": "Stained Micrograph"
     },
     {
@@ -385,7 +385,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 2,
+      "num_blocks": 9,
       "scenario": "Stained Micrograph"
     },
     {
@@ -552,7 +552,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 1,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -581,7 +581,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 3,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -610,7 +610,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 3,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -638,7 +638,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided ino a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right， top to bottom:\nBlock 1 = first row,left\nBlock 2=first row, center\nBlock 3 =first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6= second row, right\nBlock 7= third row, left\nBlock 8= third row, center\nBlock 9= third row, right",
-      "num_blocks": 2,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -670,7 +670,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
-      "num_blocks": 6,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -702,7 +702,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
-      "num_blocks": 6,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -731,7 +731,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
-      "num_blocks": 3,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -760,7 +760,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
-      "num_blocks": 3,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {
@@ -789,7 +789,7 @@
       ],
       "mask_path": "",
       "mask_caption": "The image was divided into a 3-row by 3-column equal-area grid, resulting in 9 blocks.\nThe numbering goes left to right, top to bottom:\nBlock 1 = first row, left\nBlock 2 = first row, center\nBlock 3 = first row, right\nBlock 4 = second row, left\nBlock 5 = second row, center\nBlock 6 = second row, right\nBlock 7 = third row, left\nBlock 8 = third row, center\nBlock 9 = third row, right",
-      "num_blocks": 3,
+      "num_blocks": 9,
       "scenario": "Others"
     },
     {

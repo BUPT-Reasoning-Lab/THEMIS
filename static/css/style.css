@@ -196,76 +196,109 @@ body {
 }
 
 
-/* 暑期实习板块专项优化 */
-.career-card {
-  background: #ffffff;
-  border-radius: 12px; /* 减小圆角，显得更严谨 */
-  padding: 2.5rem;
-  border: 1px solid #eaeaea;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  margin-top: 1.5rem;
-}
+/* ==========================================================
+   暑期实习专用：高透明度紫色人才名片
+   ========================================================== */
 
-.career-text {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  margin-bottom: 2rem !important;
-}
-
-.sub-career-text {
-  font-size: 1rem;
-  color: #888;
-}
-
-/* 关键信息排版：左对齐，像简历一样清晰 */
-.intern-specs {
-  display: inline-block;
-  text-align: left;
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
+/* 1. 双卡片容器：实现并排布局 */
+.applicant-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* 卡片之间的间距 */
+  margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
-  max-width: 500px;
 }
 
-.spec-item {
-  margin-bottom: 0.5rem;
-  font-size: 1.05rem;
+/* 2. 单个卡片样式 */
+.applicant-card {
+  flex: 1; /* 平分容器宽度 */
+  max-width: 400px; /* 限制最大宽度，防止卡片被拉得太长 */
+  
+  /* 核心：高透明度莫兰迪紫色背景 (透明度设为 5%) */
+  background-color: rgba(150, 35, 251, 0.05) !important; 
+  
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  display: flex;
+  text-align: left; /* 卡片内文字左对齐，像简历一样清晰 */
+  transition: all 0.3s ease;
+  overflow: hidden; /* 确保指示条不溢出 */
+  border: 1px solid rgba(150, 35, 251, 0.08); /* 超级淡的边框增加质感 */
 }
 
-.spec-label {
-  color: #666;
-  font-weight: 600;
-  width: 90px;
-  display: inline-block;
+/* 悬停效果：提高透明度到 10%，并轻微浮起 */
+.applicant-card:hover {
+  background-color: rgba(150, 35, 251, 0.1) !important;
+  transform: translateY(-5px);
 }
 
-.spec-value {
+/* 3. 卡片内部布局 */
+.card-left {
+  width: 12px;
+  background-color: transparent;
+}
+
+/* 紫色状态指示条 (纯莫兰迪紫) */
+.status-ind-purple {
+  width: 100%;
+  height: 100%;
+  background-color: #9623fb; 
+}
+
+.card-right {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+/* 4. 文字样式优化 */
+.applicant-name {
+  font-size: 1.4rem;
+  font-weight: 800;
   color: #000;
-  font-weight: 700;
-}
-
-.contact-hint {
-  font-size: 0.95rem;
-  color: #9623fb; /* 保持紫色，引导视觉 */
-  font-weight: 600;
   margin-bottom: 0.5rem !important;
 }
 
-.career-email {
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: #000 !important;
+.en-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  font-family: "Charter", serif;
+  margin-left: 5px;
+}
+
+.applicant-status {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 !important;
+  line-height: 1.4;
+}
+
+/* 5. 醒目的邮箱链接 (关键修复) */
+.card-email-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  
+  /* 邮箱颜色平时使用莫兰迪紫色，极为显眼 */
+  color: #9623fb !important; 
   text-decoration: none;
-  border-bottom: 3px solid #9623fb;
+  font-family: "Charter", serif;
+  transition: all 0.2s ease;
 }
 
-.career-email:hover {
-  color: #9623fb !important;
-  background: rgba(150, 35, 251, 0.05);
+/* 邮箱悬停：变成黑色并加底划线 */
+.card-email-link:hover {
+  color: #000000 !important;
+  text-decoration: underline !important;
 }
 
+/* 邮箱图标 */
+.card-email-link i {
+  margin-right: 6px;
+  font-size: 1rem;
+}
 
 
 /* --- 响应式适配 (Mobile Responsive) --- */

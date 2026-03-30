@@ -198,7 +198,7 @@ body {
 /* 1. Tab 按钮样式 (沿用之前的莫兰迪紫) */
 .results-tabs { display: flex; justify-content: center; gap: 15px; margin-bottom: 2rem; }
 .tab-btn {
-  padding: 8px 20px; font-family: "Charter", serif; font-weight: 700;
+  padding: 8px 20px; font-weight: 700;
   border: 2px solid rgba(150, 35, 251, 0.1); background: #fff; color: #666;
   border-radius: 50px; cursor: pointer; transition: all 0.3s;
 }
@@ -230,7 +230,6 @@ body {
   border: 1px solid rgba(150, 35, 251, 0.1);
   padding: 1.2rem;
   border-radius: 12px;
-  font-family: "Charter", serif;
   font-size: 0.95rem;
   line-height: 1.4;
   transition: all 0.2s ease;
@@ -320,7 +319,6 @@ body {
   font-size: 1rem;
   font-weight: 500;
   color: #555;
-  font-family: "Charter", serif;
   margin-left: 5px;
 }
 
@@ -341,7 +339,6 @@ body {
   /* 邮箱颜色平时使用莫兰迪紫色，极为显眼 */
   color: #9623fb !important; 
   text-decoration: none;
-  font-family: "Charter", serif;
   transition: all 0.2s ease;
 }
 

@@ -133,13 +133,13 @@
           <div id="MainFindings" class="tab-panel active">
             <div class="findings-layout">
               <div class="findings-visual">
-                <img src="static/images/main_findings_overview.png" alt="Main Findings Visual">
+                <img src="static/images/main_findings.png" alt="Main Findings Visual">
               </div>
               <div class="findings-cards">
-                <div class="insight-card-mini"><strong>F1: Real-World Gap.</strong> Text here...</div>
-                <div class="insight-card-mini"><strong>F2: Fraud Diversity.</strong> Text here...</div>
-                <div class="insight-card-mini"><strong>F3: MLLM Bottleneck.</strong> Text here...</div>
-                <div class="insight-card-mini"><strong>F4: Stringent Test.</strong> Text here...</div>
+                <div class="insight-card-mini"><strong>Overall performance remains limited.</strong> Across all evaluated tasks, MLLMs exhibit significant room for improvement, with even the SOTA GPT-5 reaching a peak BRI of only 56.15%. Notably, the open-source Qwen2.5-VL-72B achieved 47.16%, performing on par with several proprietary models and highlighting the competitive potential of open-weight architectures. </div>
+                <div class="insight-card-mini"><strong>Models exhibit pronounced specialization. </strong> Most MLLMs excel in one or two subtasks but fall short in others, revealing substantial imbalance. This specialization highlights the lack of integrated visual fraud reasoning capabilities in current models. </div>
+                <div class="insight-card-mini"><strong>Localization is markedly harder than identification.</strong> Performance consistently declined across all MLLMs when shifting from Single-Mode Forgery Identification task to Localization task, with GPT-5 dropping by 55% and OpenAI o4-mini-high by 61%. By contrast, Gemini 2.5 Flash exhibited only minor declines (14%), indicating relatively stronger spatial perceptual capacity.</div>
+                <div class="insight-card-mini"><strong>Limitations in fine-grained cross-modal alignment.</strong> Although they demonstrate relatively high judgment accuracy on Text–Image Inconsistency subtask, they struggle to ground these judgments in specific textual spans. This limitation may stem from an overreliance on global semantic associations while lacking sufficient modeling of local cross-modal mappings.</div>
               </div>
             </div>
           </div>
@@ -150,10 +150,10 @@
                 <img src="static/images/fine_grained_visual.png" alt="Fine Grained Visual">
               </div>
               <div class="findings-cards">
-                <div class="insight-card-mini"><strong>Analysis 1:</strong> Specific details...</div>
-                <div class="insight-card-mini"><strong>Analysis 2:</strong> Specific details...</div>
-                <div class="insight-card-mini"><strong>Analysis 3:</strong> Specific details...</div>
-                <div class="insight-card-mini"><strong>Analysis 4:</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Lack of transformation sensitivity.</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Current models lack robustness to input perturbations.</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Insufficient edge perception.</strong> Specific details...</div>
+                <div class="insight-card-mini"><strong>Synthetic fraud data exhibit a level of deceptiveness comparable to real fraud data.</strong> Specific details...</div>
               </div>
             </div>
           </div>

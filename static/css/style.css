@@ -311,7 +311,7 @@ body {
 .bench-visual-wrap {
   width: 100%;
   /* 关键：调小最大宽度（比如从 950px 降到 800px），图就会等比例缩小 */
-  max-width: 800px; 
+  max-width: 850px; 
   margin: 0 auto; /* 居中显示容器 */
   
   background-color: rgba(150, 35, 251, 0.05) !important; 

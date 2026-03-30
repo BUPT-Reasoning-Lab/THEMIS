@@ -246,14 +246,14 @@
         <h2 class="title is-3 section-title">Benchmark</h2>
         
         <div class="results-tabs">
-          <button class="tab-btn-bench active" onclick="openTab(event, 'Pipeline')">Construction Pipeline</button>
-          <button class="tab-btn-bench" onclick="openTab(event, 'QADesign')">QA Design</button>
-          <button class="tab-btn-bench" onclick="openTab(event, 'Statistic')">Statistic</button>
+          <button class="tab-btn active" onclick="openTab(event, 'Pipeline')">Construction Pipeline</button>
+          <button class="tab-btn" onclick="openTab(event, 'QADesign')">QA Design</button>
+          <button class="tab-btn" onclick="openTab(event, 'Statistic')">Statistic</button>
         </div>
 
         <div class="bench-content-container">
           
-          <div id="Pipeline" class="bench-panel active">
+          <div id="Pipeline" class="tab-panel active">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/Pipeline.png" alt="Construction Pipeline">
@@ -268,7 +268,7 @@
             </div>
           </div>
 
-          <div id="QADesign" class="bench-panel">
+          <div id="QADesign" class="tab-panel">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/QA.png" alt="QA Design Examples">
@@ -277,7 +277,7 @@
             </div>
           </div>
 
-          <div id="Statistic" class="bench-panel">
+          <div id="Statistic" class="tab-panel">
             <div class="bench-visual-wrap">
               <div class="image-wrapper-modern">
                 <img src="static/images/Statistic.png" alt="Benchmark Data Statistics">

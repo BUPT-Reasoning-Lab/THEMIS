@@ -322,6 +322,18 @@ body {
   transition: all 0.3s ease;
 }
 
+.bench-panel {
+  display: none; /* 默认不显示 */
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* 只有带有 active 类的面板才显示 */
+.bench-panel.active {
+  display: block !important; /* 强制显示 */
+  opacity: 1;
+}
+
 /* 图片区域：增加内边距让图进一步“内缩” */
 .image-wrapper-modern {
   padding: 30px 50px !important; /* 左右边距加大，图会显得更精致 */

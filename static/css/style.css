@@ -377,6 +377,23 @@ body {
   margin-top: 2rem;
 }
 
+/* 1. 指示文字的对齐容器 */
+.quiz-instruction-wrap {
+  /* 这里的宽度应该和你的 .quiz-container 实际显示的宽度一致 */
+  width: 100%;
+  max-width: 1000px; /* 根据你卡片的总宽度微调，如果卡片更窄则调小此值 */
+  margin: 0 auto 1.5rem auto; /* 居中容器，底部留出 1.5rem 间距 */
+  padding-left: 5px; /* 微调：对齐第一张卡片的圆角边缘 */
+}
+
+/* 2. 文字样式 */
+.quiz-subtitle {
+  text-align: left !important;
+  color: #666;
+  font-family: "Charter", serif;
+  margin-bottom: 0 !important;
+}
+
 .quiz-item {
   flex: 1;
   background: rgba(150, 35, 251, 0.03);

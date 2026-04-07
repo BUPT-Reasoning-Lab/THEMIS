@@ -306,6 +306,61 @@
 
 <hr>
 
+<section class="section" id="interactive-quiz">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 section-title">Can You Spot the Fraud?</h2>
+        <p class="subtitle is-6">Click the buttons to identify the forgery type.</p>
+
+        <div class="quiz-container">
+          <div class="quiz-item" data-answer="Splicing">
+            <div class="quiz-image-box">
+              <img src="static/cases/2000000066_6_1_9.png" alt="Case 1">
+            </div>
+            <div class="quiz-options">
+              <button onclick="checkAnswer(this, 'Splicing')">Splicing</button>
+              <button onclick="checkAnswer(this, 'Copy-Move')">Copy-Move</button>
+              <button onclick="checkAnswer(this, 'AI-Generated')">AI-Generated</button>
+              <button onclick="checkAnswer(this, 'Authentic')">Authentic</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
+
+          <div class="quiz-item" data-answer="Copy-Move">
+            <div class="quiz-image-box">
+              <img src="static/cases/2000000021_3_3_1.png" alt="Case 2">
+            </div>
+            <div class="quiz-options">
+              <button onclick="checkAnswer(this, 'Splicing')">Splicing</button>
+              <button onclick="checkAnswer(this, 'Copy-Move')">Copy-Move</button>
+              <button onclick="checkAnswer(this, 'AI-Generated')">AI-Generated</button>
+              <button onclick="checkAnswer(this, 'Authentic')">Authentic</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
+
+          <div class="quiz-item" data-answer="AI-Generated">
+            <div class="quiz-image-box">
+              <img src="static/cases/2010072808_FG_03_4_2_14.png" alt="Case 3">
+            </div>
+            <div class="quiz-options">
+              <button onclick="checkAnswer(this, 'Splicing')">Splicing</button>
+              <button onclick="checkAnswer(this, 'Copy-Move')">Copy-Move</button>
+              <button onclick="checkAnswer(this, 'AI-Generated')">AI-Generated</button>
+              <button onclick="checkAnswer(this, 'Authentic')">Authentic</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
 <section class="section" id="job-seeking">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -394,5 +449,30 @@ function openTab(evt, tabName) {
   targetPanel.classList.add("active");
   targetPanel.style.display = "block"; // 确保显示
   evt.currentTarget.classList.add("active");
+}
+
+function checkAnswer(btn, choice) {
+  const quizItem = btn.closest('.quiz-item');
+  const correctAnswer = quizItem.getAttribute('data-answer');
+  const feedback = quizItem.querySelector('.feedback-text');
+  const allButtons = quizItem.querySelectorAll('button');
+
+  // 防止重复点击
+  allButtons.forEach(b => b.disabled = true);
+
+  if (choice === correctAnswer) {
+    // 选对了：变绿 + 打钩
+    btn.classList.add('correct');
+    feedback.innerHTML = '<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct!';
+  } else {
+    // 选错了：变红 + 叉叉 + 蓝色提示
+    btn.classList.add('wrong');
+    feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! <span class="text-blue">The answer is ${correctAnswer}.</span>`;
+    
+    // 同时把正确的那个按钮也高亮显示一下（可选）
+    allButtons.forEach(b => {
+      if (b.innerText === correctAnswer) b.classList.add('correct');
+    });
+  }
 }
 </script>

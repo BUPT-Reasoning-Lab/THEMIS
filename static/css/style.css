@@ -368,6 +368,83 @@ body {
 .bench-caption strong {
   color: #9623fb; /* 标题保持紫色 */
 }
+
+/* 问答 */
+.quiz-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.quiz-item {
+  flex: 1;
+  background: rgba(150, 35, 251, 0.03);
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(150, 35, 251, 0.1);
+  transition: all 0.3s ease;
+}
+
+.quiz-image-box {
+  height: 150px;
+  margin-bottom: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.quiz-image-box img {
+  max-height: 100%;
+  width: auto;
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.quiz-options button {
+  padding: 6px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* 状态类：选错 (红色) */
+.quiz-options button.wrong {
+  background-color: #ff4d4d !important;
+  color: white;
+  border-color: #ff4d4d;
+}
+
+/* 状态类：选对 (绿色) */
+.quiz-options button.correct {
+  background-color: #2ecc71 !important;
+  color: white;
+  border-color: #2ecc71;
+}
+
+/* 反馈文字样式 (蓝色提示) */
+.feedback-text {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-height: 20px;
+}
+
+.text-blue {
+  color: #3498db; /* 蓝色提示正确选项 */
+}
+
+
 /* ==========================================================
    暑期实习专用：高透明度紫色人才名片
    ========================================================== */

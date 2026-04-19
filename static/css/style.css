@@ -675,57 +675,239 @@ body {
 
 /* --- 响应式适配 (Mobile Responsive) --- */
 
+/* =========================
+   Mobile Responsive
+   max-width: 768px
+   ========================= */
 @media screen and (max-width: 768px) {
-  /* 1. 让第一屏高度自适应，不要锁定 100vh，否则内容多会溢出 */
+
+  /* 全局 */
+  body {
+    overflow-x: hidden;
+  }
+
+  .container.is-max-desktop,
+  .quiz-container-single,
+  .quiz-instruction-wrap {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Hero 区域 */
   .hero-header {
     height: auto;
     min-height: 100vh;
-    padding: 3rem 1rem;
-    display: block; /* 取消 flex，改用块级排布 */
+    padding: 3rem 1rem 2rem;
+    display: block;
+    text-align: center;
   }
 
-  /* 2. 重置 Logo：取消绝对定位，让它回到文档流中居中显示 */
   .project-logo {
-    position: relative; /* 取消 absolute */
+    position: relative;
     left: 0;
     top: 0;
     transform: none;
     display: block;
-    margin: 0 auto 2rem auto; /* 居中并增加下方间距 */
-    width: 60%; /* 手机端缩小一点比例 */
-    max-width: 250px;
-    border-width: 6px; /* 缩小边框 */
+    margin: 0 auto 2rem auto;
+    width: 60%;
+    max-width: 220px;
+    border-width: 4px;
   }
 
-  /* 3. 调整标题字号：8.5rem 在手机上太大了，必须缩小 */
   .project-name {
-    font-size: 3.5rem; /* 缩小字号 */
-    text-align: center;
+    font-size: 3.2rem;
+    line-height: 0.95;
     letter-spacing: -1px;
     margin-left: 0;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    word-break: break-word;
   }
 
-  /* 4. 调整副标题和作者：居中对齐 */
   .project-subtitle {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
+    line-height: 1.4;
+    margin: 0 auto 1.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    max-width: 100%;
   }
 
   .author-info {
+    font-size: 0.95rem;
+    line-height: 1.5 !important;
     text-align: center;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    margin-bottom: 1.2rem;
   }
 
-  /* 5. 按钮：居中排列 */
+  .authors,
+  .affiliations,
+  .note {
+    text-align: center;
+  }
+
+  .note {
+    font-size: 0.9rem;
+  }
+
+  /* 按钮 */
   .buttons-container {
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
+    margin-top: 1.5rem;
   }
 
   .button-capsule {
-    padding: 8px 20px;
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    border-width: 2px;
+    gap: 8px;
+  }
+
+  .button-capsule .icon {
+    font-size: 1.1rem;
+  }
+
+  /* Tabs */
+  .results-tabs {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tab-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  /* Findings / 图片展示 */
+  .findings-stack {
+    gap: 1.5rem;
+  }
+
+  .findings-visual-full,
+  .bench-visual-wrap {
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
+  .findings-matrix {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .insight-card-modern {
+    padding: 1rem;
+    gap: 12px;
+  }
+
+  .dual-visual-wrapper {
+    padding: 1rem !important;
+  }
+
+  .dual-images {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dual-images img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .divider-line {
+    display: none;
+  }
+
+  .image-wrapper-modern {
+    padding: 16px !important;
+  }
+
+  .bench-caption {
+    padding: 1rem !important;
+    font-size: 0.9rem;
+  }
+
+  /* Quiz */
+  .quiz-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 1.5rem auto;
+  }
+
+  .quiz-item {
+    padding: 1rem;
+  }
+
+  .quiz-image-box {
+    height: 180px;
+  }
+
+  .quiz-image-box.dual-image {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .quiz-image-box.dual-image img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+  }
+
+  .quiz-options {
+    grid-template-columns: 1fr;
+  }
+
+  .quiz-options-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .quiz-options button,
+  .quiz-options-grid button {
+    font-size: 0.85rem;
+    padding: 10px 8px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  .feedback-text,
+  .tii-text-item {
+    font-size: 0.9rem;
+  }
+
+  .tii-content-box {
+    padding: 1rem;
+  }
+
+  /* 人才卡片 */
+  .applicant-cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .applicant-card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .card-right {
+    padding: 1.2rem;
+  }
+
+  .applicant-name {
+    font-size: 1.2rem;
+  }
+
+  .card-email-link {
     font-size: 1rem;
+    word-break: break-all;
   }
 }
+

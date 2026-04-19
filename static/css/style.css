@@ -680,20 +680,6 @@ body {
    max-width: 768px
    ========================= */
 @media screen and (max-width: 768px) {
-
-  /* 全局 */
-  body {
-    overflow-x: hidden;
-  }
-
-  .container.is-max-desktop,
-  .quiz-container-single,
-  .quiz-instruction-wrap {
-    max-width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   /* Hero 区域 */
   .hero-header {
     height: auto;

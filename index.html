@@ -355,6 +355,19 @@
             </div>
             <p class="feedback-text"></p>
           </div>
+
+          <div class="quiz-item" data-answer="AI-Generated">
+            <div class="quiz-image-box">
+              <img src="static/cases/2010072733_FG_04_2_1_1.png" alt="Case 3">
+            </div>
+            <div class="quiz-options">W
+              <button onclick="checkAnswer(this, 'Splicing')">Splicing</button>
+              <button onclick="checkAnswer(this, 'Copy-Move')">Copy-Move</button>
+              <button onclick="checkAnswer(this, 'AI-Generated')">AI-Generated</button>
+              <button onclick="checkAnswer(this, 'Authentic')">Authentic</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
         </div>
         
       </div>
@@ -459,22 +472,32 @@ function checkAnswer(btn, choice) {
   const correctAnswer = quizItem.getAttribute('data-answer');
   const feedback = quizItem.querySelector('.feedback-text');
   const allButtons = quizItem.querySelectorAll('button');
+  const img = quizItem.querySelector('img');
 
   // 防止重复点击
   allButtons.forEach(b => b.disabled = true);
 
+  // --- 核心逻辑：替换为 Highlight 图片 ---
+  // 假设原图是 xxx.png，Highlight 图是 xxx_highlight.png
+  let oldSrc = img.src;
+  let newSrc = oldSrc.replace(/\.png$/, '_highlight.png');
+  
+  // 预加载并切换图片
+  img.style.opacity = '0.5'; // 先变淡，提示正在切换
+  img.src = newSrc;
+  img.onload = () => { img.style.opacity = '1'; }; // 加载完恢复
+
   if (choice === correctAnswer) {
-    // 选对了：变绿 + 打钩
     btn.classList.add('correct');
     feedback.innerHTML = '<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct!';
   } else {
-    // 选错了：变红 + 叉叉 + 蓝色提示
     btn.classList.add('wrong');
     feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! <span class="text-blue">The answer is ${correctAnswer}.</span>`;
     
-    // 同时把正确的那个按钮也高亮显示一下（可选）
     allButtons.forEach(b => {
-      if (b.innerText === correctAnswer) b.classList.add('correct');
+      // 这里的对比逻辑用 innerText 可能不稳，建议按钮也加 data-choice 属性
+      // 或者直接对比文本
+      if (b.innerText.trim() === correctAnswer) b.classList.add('correct');
     });
   }
 }

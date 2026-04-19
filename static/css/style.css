@@ -371,10 +371,11 @@ body {
 
 /* 问答 */
 .quiz-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 2rem auto;
 }
 
 /* 1. 指示文字的对齐容器 */
@@ -391,6 +392,11 @@ body {
   text-align: left !important;
   color: #666;
   margin-bottom: 0 !important;
+}
+
+/* 图片切换时的平滑过渡 */
+.quiz-image-box img {
+  transition: opacity 0.3s ease;
 }
 
 .quiz-item {

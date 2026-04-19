@@ -370,24 +370,51 @@
           </div>
         </div>
 
-        <div class="quiz-instruction-wrap" style="margin-top: 3rem;">
-          <p class="subtitle is-6 quiz-subtitle">B) Click the buttons to identify the duplication type.</p>
-        </div>
-
         <div class="quiz-container-single">
-          <div class="quiz-item full-width" data-answer="Scaling">
+          <div class="quiz-item full-width" data-answer="Scaling,Flipped" id="quiz-multi">
             <div class="quiz-image-box dual-image">
               <img src="static/cases/2010000169_DUP_02_0_1_1_tampered.png" alt="Duplication Case 1">
               <img src="static/cases/2010000169_DUP_02_0_1_2_tampered.png" alt="Duplication Case 2">
             </div>
             
             <div class="quiz-options-grid">
-              <button onclick="checkAnswer(this, 'Scaling')">A. Direct</button>
-              <button onclick="checkAnswer(this, 'Scaling')">B. Scaling</button>
-              <button onclick="checkAnswer(this, 'Scaling')">C. Rotated</button>
-              <button onclick="checkAnswer(this, 'Scaling')">D. Flipped</button>
-              <button onclick="checkAnswer(this, 'Scaling')">E. Parameter-Modified</button>
-              <button onclick="checkAnswer(this, 'Scaling')">F. No Duplication</button>
+              <button class="opt-multi" onclick="toggleSelect(this)">A. Direct</button>
+              <button class="opt-multi" onclick="toggleSelect(this)" data-val="Scaling">B. Scaling</button>
+              <button class="opt-multi" onclick="toggleSelect(this)">C. Rotated</button>
+              <button class="opt-multi" onclick="toggleSelect(this)" data-val="Flipped">D. Flipped</button>
+              <button class="opt-multi" onclick="toggleSelect(this)">E. Parameter-Modified</button>
+              <button class="opt-multi" onclick="toggleSelect(this)">F. No Duplication</button>
+            </div>
+
+            <div style="margin-top: 15px; text-align: center;">
+              <button class="submit-btn" onclick="checkMultiAnswer(this)">Submit Answer</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
+        </div>
+        <div class="quiz-instruction-wrap" style="margin-top: 3rem;">
+          <p class="subtitle is-6 quiz-subtitle">C) Are the text and image consistent?</p>
+        </div>
+
+        <div class="quiz-container-single">
+          <div class="quiz-item full-width" data-answer="No">
+            <div class="quiz-image-box">
+              <img src="static/cases/2010027936_TII_01_8.png" alt="TII Case">
+            </div>
+            
+            <div class="tii-content-box">
+              <p class="tii-label">Figure Caption:</p>
+              <p class="tii-text-item">EDS analysis at the grain boundaries of Fe-6.5 wt % Si steel strip samples: (a) 1.0 wt % Cu, (b) 1.5 wt % Cu, and (c) 2.0 wt % Cu.</p>
+              
+              <p class="tii-label" style="margin-top: 10px;">Related Sentences:</p>
+              <p id="tii-sentence-target" class="tii-text-item">
+                Further SEM microstructural examination revealed that Cu rich precipitates were absent in the 1.5 wt % Cu specimen (Figure 8a), but became visible in the 1.5 wt % Cu specimen (Figure 8b). The precipitates in the 1.5 wt % Cu specimen were tiny, few, and irregularly scattered at grain boundaries. Cu-rich precipitates were continuous or semicontinuous at grain boundaries as the Cu dosage was raised to 2.0 wt %, as shown in Figure 8c.
+              </p>
+            </div>
+            
+            <div class="quiz-options">
+              <button onclick="checkAnswerTII(this, 'Yes')">Yes</button>
+              <button onclick="checkAnswerTII(this, 'No')">No</button>
             </div>
             <p class="feedback-text"></p>
           </div>
@@ -526,4 +553,89 @@ function checkAnswer(btn, choice) {
     });
   }
 }
+
+// 1. 切换选中状态
+function toggleSelect(btn) {
+  // 如果已经提交过了，就不允许再改
+  if (btn.classList.contains('correct') || btn.classList.contains('wrong')) return;
+  btn.classList.toggle('selected');
+}
+
+// 2. 判定多选题
+function checkMultiAnswer(submitBtn) {
+  const quizItem = submitBtn.closest('.quiz-item');
+  const feedback = quizItem.querySelector('.feedback-text');
+  const images = quizItem.querySelectorAll('img');
+  const allButtons = quizItem.querySelectorAll('.opt-multi');
+  
+  // 获取正确答案数组
+  const correctAnswers = quizItem.getAttribute('data-answer').split(',');
+  
+  // 核心：替换图片为 Highlight
+  images.forEach(img => {
+    img.style.opacity = '0.4';
+    img.src = img.src.replace(/\.png$/, '_highlight.png');
+    img.onload = () => { img.style.opacity = '1'; };
+  });
+
+  let selectedCorrectCount = 0;
+  let wrongSelected = false;
+
+  allButtons.forEach(btn => {
+    btn.disabled = true; // 禁用所有按钮
+    const btnText = btn.innerText;
+    const isCorrect = correctAnswers.some(ans => btnText.includes(ans));
+    const isSelected = btn.classList.contains('selected');
+
+    if (isCorrect) {
+      btn.classList.add('correct'); // 正确项永远亮绿
+      if (isSelected) selectedCorrectCount++;
+    } else if (isSelected) {
+      btn.classList.add('wrong'); // 选错了亮红
+      wrongSelected = true;
+    }
+  });
+
+  // 反馈逻辑
+  if (selectedCorrectCount === correctAnswers.length && !wrongSelected) {
+    feedback.innerHTML = `<i class="fas fa-check-circle" style="color:#2ecc71"></i> Perfect! You found both Scaling and Flipped.`;
+  } else {
+    feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Incomplete or Wrong. <span class="text-blue">The correct answers are: ${correctAnswers.join(' and ')}.</span>`;
+  }
+  
+  submitBtn.style.display = 'none'; // 隐藏提交按钮
+}
+
+function checkAnswerTII(btn, choice) {
+  const quizItem = btn.closest('.quiz-item');
+  const feedback = quizItem.querySelector('.feedback-text');
+  const allButtons = quizItem.querySelectorAll('button');
+  const textContainer = document.getElementById('tii-sentence-target');
+
+  // 定义篡改和修正的内容
+  const tampered = "Further SEM microstructural examination revealed that Cu rich precipitates were absent in the 1.5 wt % Cu specimen (Figure 8a),";
+  const golden = "Further SEM microstructural examination revealed that Cu rich precipitates were absent in the 1.0 wt % Cu specimen (Figure 8a),";
+
+  // 防止重复点击
+  allButtons.forEach(b => b.disabled = true);
+
+  // 1. 实现高亮效果
+  let originalText = textContainer.innerHTML;
+  // 将篡改部分包裹在带有红色背景的 span 中
+  let highlightedText = originalText.replace(tampered, `<span class="tii-highlight-err">${tampered}</span>`);
+  textContainer.innerHTML = highlightedText;
+
+  // 2. 判断正确性
+  if (choice === 'No') {
+    btn.classList.add('correct');
+    feedback.innerHTML = `<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct! <span class="text-blue">Correction: ${golden}</span>`;
+  } else {
+    btn.classList.add('wrong');
+    feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! The logic is inconsistent. <br><span class="text-blue">Correct version: ${golden}</span>`;
+    
+    // 把正确的按钮也亮一下
+    allButtons.forEach(b => { if(b.innerText === 'No') b.classList.add('correct'); });
+  }
+}
+
 </script>

@@ -93,6 +93,45 @@ body {
 
 }
 
+/* B 部分单列大卡片容器 */
+.quiz-container-single {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* 双图并排样式 */
+.quiz-image-box.dual-image {
+  height: 220px; /* 适当调高以容纳两张图 */
+  gap: 15px;
+  background: #fff;
+}
+
+.quiz-image-box.dual-image img {
+  height: 100%;
+  width: 48%; /* 两张图各占近一半 */
+  object-fit: contain;
+  border: 1px solid #eee;
+}
+
+/* B 部分 6 个选项的 3 列布局 */
+.quiz-options-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3列排布 A-F */
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.quiz-options-grid button {
+  padding: 8px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
 
 
 .label-morandi {
@@ -396,7 +435,7 @@ body {
 
 /* 图片切换时的平滑过渡 */
 .quiz-image-box img {
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s ease;
 }
 
 .quiz-item {

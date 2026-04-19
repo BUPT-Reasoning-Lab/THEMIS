@@ -369,6 +369,29 @@
             <p class="feedback-text"></p>
           </div>
         </div>
+
+        <div class="quiz-instruction-wrap" style="margin-top: 3rem;">
+          <p class="subtitle is-6 quiz-subtitle">B) Click the buttons to identify the duplication type.</p>
+        </div>
+
+        <div class="quiz-container-single">
+          <div class="quiz-item full-width" data-answer="Scaling">
+            <div class="quiz-image-box dual-image">
+              <img src="static/cases/2010000169_DUP_02_0_1_1_tampered.png" alt="Duplication Case 1">
+              <img src="static/cases/2010000169_DUP_02_0_1_2_tampered.png" alt="Duplication Case 2">
+            </div>
+            
+            <div class="quiz-options-grid">
+              <button onclick="checkAnswer(this, 'Scaling')">A. Direct</button>
+              <button onclick="checkAnswer(this, 'Scaling')">B. Scaling</button>
+              <button onclick="checkAnswer(this, 'Scaling')">C. Rotated</button>
+              <button onclick="checkAnswer(this, 'Scaling')">D. Flipped</button>
+              <button onclick="checkAnswer(this, 'Scaling')">E. Parameter-Modified</button>
+              <button onclick="checkAnswer(this, 'Scaling')">F. No Duplication</button>
+            </div>
+            <p class="feedback-text"></p>
+          </div>
+        </div>
         
       </div>
     </div>
@@ -472,32 +495,34 @@ function checkAnswer(btn, choice) {
   const correctAnswer = quizItem.getAttribute('data-answer');
   const feedback = quizItem.querySelector('.feedback-text');
   const allButtons = quizItem.querySelectorAll('button');
-  const img = quizItem.querySelector('img');
+  const images = quizItem.querySelectorAll('img'); // 获取所有图片
 
   // 防止重复点击
   allButtons.forEach(b => b.disabled = true);
 
-  // --- 核心逻辑：替换为 Highlight 图片 ---
-  // 假设原图是 xxx.png，Highlight 图是 xxx_highlight.png
-  let oldSrc = img.src;
-  let newSrc = oldSrc.replace(/\.png$/, '_highlight.png');
-  
-  // 预加载并切换图片
-  img.style.opacity = '0.5'; // 先变淡，提示正在切换
-  img.src = newSrc;
-  img.onload = () => { img.style.opacity = '1'; }; // 加载完恢复
+  // --- 核心逻辑：替换所有图片为 Highlight 版本 ---
+  images.forEach(img => {
+    let oldSrc = img.src;
+    // 处理逻辑：如果是 xxx_tampered.png -> xxx_tampered_highlight.png
+    // 如果没有 tampered 只有 .png -> xxx_highlight.png
+    let newSrc = oldSrc.replace(/\.png$/, '_highlight.png');
+    
+    img.style.opacity = '0.4';
+    img.src = newSrc;
+    img.onload = () => { img.style.opacity = '1'; };
+  });
 
-  if (choice === correctAnswer) {
+  // 判断正确性（注意：B部分的按钮文字包含 "A. ", "B. " 等，需做处理或直接对比）
+  // 建议直接对比按钮的文本是否包含 correctAnswer 字符串
+  if (btn.innerText.includes(correctAnswer)) {
     btn.classList.add('correct');
-    feedback.innerHTML = '<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct!';
+    feedback.innerHTML = '<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct! This case involves scaling manipulation.';
   } else {
     btn.classList.add('wrong');
     feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! <span class="text-blue">The answer is ${correctAnswer}.</span>`;
     
     allButtons.forEach(b => {
-      // 这里的对比逻辑用 innerText 可能不稳，建议按钮也加 data-choice 属性
-      // 或者直接对比文本
-      if (b.innerText.trim() === correctAnswer) b.classList.add('correct');
+      if (b.innerText.includes(correctAnswer)) b.classList.add('correct');
     });
   }
 }

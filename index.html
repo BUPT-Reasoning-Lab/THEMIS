@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>THEMIS Project</title>
+
+  <link rel="icon" type="image/png" href="static/images/logo.png">
+  
+  <link rel="shortcut icon" href="static/images/logo.png" type="image/x-icon">
+
+  <link rel="apple-touch-icon" href="static/images/logo.png">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -631,7 +637,7 @@ function checkAnswerTII(btn, choice) {
     feedback.innerHTML = `<i class="fas fa-check-circle" style="color:#2ecc71"></i> Correct! <span class="text-blue">Correction: ${golden}</span>`;
   } else {
     btn.classList.add('wrong');
-    feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! The logic is inconsistent. <br><span class="text-blue">Correct version: ${golden}</span>`;
+    feedback.innerHTML = `<i class="fas fa-times-circle" style="color:#ff4d4d"></i> Wrong! Numerical Inconsistent! <br><span class="text-blue">Correct version: ${golden}</span>`;
     
     // 把正确的按钮也亮一下
     allButtons.forEach(b => { if(b.innerText === 'No') b.classList.add('correct'); });

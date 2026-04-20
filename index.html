@@ -39,9 +39,9 @@
           <p class="authors">
             <em class="label-morandi">Authors:</em>
             <!-- <em><strong style="color: #9623fb">Authors:</strong></em> -->
-            <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Tzu-Yen Ma<sup>*</sup></a>,
-            <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Bo Zhang<sup>*</sup></a>,
-            <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Zichen Tang</a>,
+            <a href="https://github.com/CholeMa2002" class="author-link" target="_blank">Tzu-Yen Ma<sup>*</sup></a>,
+            <a href="https://github.com/HildaZhan" class="author-link" target="_blank">Bo Zhang<sup>*</sup></a>,
+            <a href="https://zichentang.github.io" class="author-link" target="_blank">Zichen Tang</a>,
             <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Junpeng Ding</a>,
             <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Haolin Tian</a>,
             <a href="https://bupt-reasoning-lab.github.io/THEMIS/" class="author-link" target="_blank">Yuanze Li</a>,
@@ -206,15 +206,15 @@
                     <strong>Lack of transformation sensitivity.</strong> 
                     Models perform reasonably on direct reuse but degrade markedly under geometric transformations or appearance adjustments. 
                     They often fail to detect duplication and cannot determine the transformation type, underscoring the limited spatial reasoning ability of current MLLMs and their insufficient robustness to transformations.
-                    This reveals that current models have basic similarity-matching ability but remain weak in edge sensitivity.
                   </div>
                 </div>
 
                 <div class="insight-card-modern">
                   <div class="card-num">02</div>
                   <div class="card-content">
-                    <strong>Lack of robustness to perturbations.</strong> 
-                    Current models exhibit significant performance drops when faced with minor input perturbations or noise...
+                    <strong>Current models lack robustness to input perturbations.</strong> 
+                    To test MLLM sensitivity on synthetic data, we applied Gaussian blur, JPEG compression, and scaling. 
+                    Gaussian blur caused the steepest drops across tasks, while JPEG compression and scaling also degraded performance.
                   </div>
                 </div>
 
@@ -222,15 +222,21 @@
                   <div class="card-num">03</div>
                   <div class="card-content">
                     <strong>Insufficient edge perception.</strong> 
-                    The failure to accurately locate forged regions stems from a fundamental weakness in boundary and edge detection...
+                    Models perform better on Copy-Move than Splicing, as the former can exploit both edge anomalies and region similarity, 
+                    while the latter depends mainly on boundary cues.
                   </div>
                 </div>
 
                 <div class="insight-card-modern">
                   <div class="card-num">04</div>
                   <div class="card-content">
-                    <strong>Deceptiveness of synthetic fraud.</strong> 
-                    Synthetic data exhibit a level of deceptiveness comparable to real fraud cases, presenting a unique challenge...
+                    <strong>Synthetic fraud data exhibit a level of deceptiveness comparable to real fraud data.</strong> 
+                    In the Composite Manipulation Operations Identification task, 
+                    the synthetic data impose even greater identification pressure than real data. 
+                    In the Single-Mode Forgery Identification and Localization task, 
+                    their difficulty is similarly on par with real data. 
+                    The main exception lies in Splicing subtask, 
+                    where real data remain more challenging due to the sophistication and subtlety of splicing patterns in real-world manipulations.
                   </div>
                 </div>
               </div>

@@ -1,9 +1,17 @@
-# THEMIS Benchmark
-![Alt text](themis.png)
-[**🤗 Huggingface**](https://huggingface.co/datasets/BUPT-Reasoning-Lab/THEMIS)
-[**Paper**](https://openreview.net/attachment?id=y3UkklvoW9&name=pdf)
-[**Home page**](https://bupt-reasoning-lab.github.io/THEMIS/#)
-This repo contains the evaluation code for the paper "THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics"
+<div align="center">
+<img style="width: 50%; max-width: 560px;" src="themis_logo.png" alt="THEMIS">
+<h2 align="center">THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics</h2>
+
+<a href="https://openreview.net/attachment?id=y3UkklvoW9&name=pdf" target="_blank"><img src="https://img.shields.io/badge/Paper-OpenReview-B31B1B?style=flat" alt="Paper" height="25"></a>
+<a href="https://bupt-reasoning-lab.github.io/THEMIS/#" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-THEMIS-blue.svg" height="25" /></a>
+<a href="https://huggingface.co/datasets/BUPT-Reasoning-Lab/THEMIS" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow" alt="Hugging Face Dataset" height="25"></a>
+
+<p>
+    <img src="themis.png" alt="THEMIS" width="700">
+</p>
+</div>
+
+This repository contains the evaluation code for the paper **"THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics"**.
 
 ## 🔥 Takeaways
 - **Real-World Scenarios and Complexity.** THEMIS spans seven representative academic scenarios (e.g., medical imaging and micrographs), with problems derived from authentic retracted cases and carefully constructed synthetic data, ensuring both realism and controllability. Importantly, 60.47\% of the images contain complex textures, which substantially increases the difficulty of manipulation detection.

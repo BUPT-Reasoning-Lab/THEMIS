@@ -1,5 +1,5 @@
 <div align="center">
-<img style="width: 50%; max-width: 560px;" src="themis_logo.png" alt="THEMIS">
+<img style="width: 50%; max-width: 560px;" src="themis.png" alt="THEMIS">
 <h2 align="center">THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics</h2>
 
 <a href="https://openreview.net/attachment?id=y3UkklvoW9&name=pdf" target="_blank"><img src="https://img.shields.io/badge/Paper-OpenReview-B31B1B?style=flat" alt="Paper" height="25"></a>

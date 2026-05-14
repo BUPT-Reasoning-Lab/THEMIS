@@ -2,7 +2,7 @@
 <img style="width: 20%; max-width: 560px;" src="themis_logo.png" alt="THEMIS">
 <h2 align="center">THEMIS: Towards Holistic Evaluation of MLLMs for Scientific Paper Fraud Forensics</h2>
 
-<a href="https://openreview.net/attachment?id=y3UkklvoW9&name=pdf" target="_blank"><img src="https://img.shields.io/badge/Paper-OpenReview-B31B1B?style=flat" alt="Paper" height="25"></a>
+<a href="https://openreview.net/pdf?id=y3UkklvoW9" target="_blank"><img src="https://img.shields.io/badge/Paper-OpenReview-B31B1B?style=flat" alt="Paper" height="25"></a>
 <a href="https://bupt-reasoning-lab.github.io/THEMIS/#" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-THEMIS-blue.svg" height="25" /></a>
 <a href="https://huggingface.co/datasets/BUPT-Reasoning-Lab/THEMIS" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow" alt="Hugging Face Dataset" height="25"></a>
 
